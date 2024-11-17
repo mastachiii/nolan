@@ -5,6 +5,8 @@ function Shop() {
         <div>
             <p>SHOP</p>
             <Link to="/">GO BACK</Link>
+            <hr />
+            <Link to="cart">TO CART</Link>
         </div>
     );
 }
