@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Item({ value }) {
     return (
         <div>
-            <p>Item #{value}</p>
+            <p>{value}</p>
             <button>Add To Cart</button>
         </div>
     );
