@@ -4,7 +4,7 @@ function Homepage() {
     return (
         <div>
             <p>HOMEPAGE</p>
-            <Link to="foo">TO SHOP</Link>
+            <Link to="shop">TO SHOP</Link>
         </div>
     );
 }
