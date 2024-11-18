@@ -28,7 +28,6 @@ async function makeMovieObj(id) {
     });
 
     await axios.get(urlImages, options).then((r) => {
-        console.log(r.data);
         const backdrops = r.data.backdrops;
 
         backdrops.forEach((item) => {
@@ -36,7 +35,27 @@ async function makeMovieObj(id) {
         });
     });
 
-    console.log(obj);
+    return obj;
 }
 
-export { makeMovieObj };
+// DELETE LATER
+// might need when i want to reupdate product listing.
+async function foo() {
+    let list;
+    let response;
+    let final = [];
+
+    await axios.get("http://localhost:3001/products").then((r) => (response = r.data));
+    await axios.get("http://localhost:3001/list").then((r) => (list = r.data.items));
+
+    console.log(list);
+    for (let i = 0; i < list.length; i++) {
+        console.log(list[i])
+        await makeMovieObj(list[i]).then((r) => final.push(r));
+    }
+    response.items = final;
+    axios.put("http://localhost:3001/products", response);
+
+    console.log(response);
+    console.log(final);
+}
