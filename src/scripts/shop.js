@@ -12,14 +12,14 @@ function getCart() {
     return request.then((r) => r.data);
 }
 
-// Get current cart array first then append new item.
+// Get current cart array first then do specified method.
 async function updateCart(item, method) {
     let cart;
 
     await getCart().then((r) => (cart = r));
 
     if (method === "ADD") {
-        cart.items.push(item);
+        cart.items.includes(item) ? null : cart.items.push(item);
     } else {
         cart.items = cart.items.filter((a) => a !== item);
     }

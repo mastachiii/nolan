@@ -1,18 +1,31 @@
 {
-  "products": {
-    "id": "products",
-    "items": [
-      "The Departed",
-      "Pulp Fiction",
-      "Chungking Express",
-      "The Pianist",
-      "Inception"
-    ]
-  },
-  "cart": {
-    "id": "cart",
-    "items": [
-      "The Departed"
-    ]
-  }
+    "products": {
+        "id": "products",
+        "items": [
+            {
+                "title": "The Departed",
+                "id": 32423
+            },
+            {
+                "title": "The Pianist",
+                "id": 49532
+            },
+            {
+                "title": "Inception",
+                "id": 23144
+            },
+            {
+                "title": "Chungking Express",
+                "id": 49532
+            },
+            {
+                "title": "Pulp Fiction",
+                "id": 91238
+            }
+        ]
+    },
+    "cart": {
+        "id": "cart",
+        "items": []
+    }
 }

@@ -13,7 +13,14 @@ function Shop() {
     return (
         <div>
             <p>SHOP</p>
-            {items && items.map((a) => <ItemShop value={a} key={a} />)}
+            <ul>
+                {items &&
+                    items.map((a) => (
+                        <li key={a.id}>
+                            <Link to={`${a.id}`}>{a.title}</Link>
+                        </li>
+                    ))}
+            </ul>
             <Link to="/">GO BACK</Link>
             <hr />
             <Link to="cart">TO CART</Link>
