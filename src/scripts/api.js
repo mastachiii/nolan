@@ -1,4 +1,4 @@
-// Use TMDB API to curate a list of movies with posters, details, etc.
+// Use TMDB API to curate a list of movies with posters, details, etc. for dummy shop.
 import axios from "axios";
 
 const options = {
@@ -20,6 +20,7 @@ async function makeMovieObj(id) {
         backdrops: [],
     };
 
+    // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
         obj.title = r.data.title;
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
@@ -27,6 +28,7 @@ async function makeMovieObj(id) {
     });
 
     await axios.get(urlImages, options).then((r) => {
+        console.log(r.data);
         const backdrops = r.data.backdrops;
 
         backdrops.forEach((item) => {

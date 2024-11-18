@@ -27,5 +27,12 @@
   "cart": {
     "id": "cart",
     "items": []
+  },
+  "list": {
+    "id": "list",
+    "items": [
+      "240-the-godfather-part-ii",
+      "496243"
+    ]
   }
 }
