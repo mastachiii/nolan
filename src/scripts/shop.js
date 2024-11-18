@@ -3,7 +3,7 @@ import axios from "axios";
 function getProducts() {
     const request = axios.get("http://localhost:3001/products");
 
-    return request.then((r) => r.data.items);
+    return request.then((r) => r.data);
 }
 
 function getCart() {
@@ -23,4 +23,4 @@ async function addItemsToCart(foo) {
     axios.put("http://localhost:3001/cart", cart);
 }
 
-export { getProducts, addItemsToCart };
+export { getProducts, getCart, addItemsToCart };
