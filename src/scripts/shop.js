@@ -1,3 +1,5 @@
+// Dummy Shop API
+
 import axios from "axios";
 
 function getProducts() {
