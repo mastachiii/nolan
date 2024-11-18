@@ -13,14 +13,18 @@ function getCart() {
 }
 
 // Get current cart array first then append new item.
-async function addItemsToCart(foo) {
+async function updateCart(item, method) {
     let cart;
 
     await getCart().then((r) => (cart = r));
 
-    cart.items.push(foo);
+    if (method === "ADD") {
+        cart.items.push(item);
+    } else {
+        cart.items = cart.items.filter((a) => a !== item);
+    }
 
     axios.put("http://localhost:3001/cart", cart);
 }
 
-export { getProducts, getCart, addItemsToCart };
+export { getProducts, getCart, updateCart };
