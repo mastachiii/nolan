@@ -1,6 +1,18 @@
 {
-    "items": {
-        "id": 1,
-        "content": ["The Departed", "Pulp Fiction", "Chungking Express", "The Pianist", "Inception"]
-    }
+  "products": {
+    "id": "products",
+    "items": [
+      "The Departed",
+      "Pulp Fiction",
+      "Chungking Express",
+      "The Pianist",
+      "Inception"
+    ]
+  },
+  "cart": {
+    "id": "cart",
+    "items": [
+      "The Departed"
+    ]
+  }
 }
