@@ -1,17 +1,22 @@
 import PropTypes from "prop-types";
+import { useLocation, Link } from "react-router-dom";
 import { updateCart } from "../scripts/shop";
 
-function ItemShop({ value }) {
+function ItemShop() {
+    const data = useLocation().state;
+
     return (
         <div>
-            <p>{value}</p>
+            <p>{data.title}</p>
             <button
                 onClick={() => {
-                    updateCart(value, "ADD");
+                    updateCart(data.title, "ADD");
                 }}
             >
                 Add To Cart
             </button>
+            <Link to="/shop">GO BACK</Link>
+            <Link to="/shop/cart">GO TO CART</Link>
         </div>
     );
 }

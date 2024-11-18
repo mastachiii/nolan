@@ -15,9 +15,11 @@ function Shop() {
             <p>SHOP</p>
             <ul>
                 {items &&
-                    items.map((a) => (
+                    items.map((a, b) => (
                         <li key={a.id}>
-                            <Link to={`${a.id}`}>{a.title}</Link>
+                            <Link to={`${a.id}`} state={items[b]}>
+                                {a.title}
+                            </Link>
                         </li>
                     ))}
             </ul>
