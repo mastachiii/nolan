@@ -1,6 +1,5 @@
 import { getProducts } from "./scripts/shop";
 import { useEffect, useState } from "react";
-import ItemShop from "./components/itemShop";
 import { Link } from "react-router-dom";
 
 function Shop() {

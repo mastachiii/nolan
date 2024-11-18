@@ -14,6 +14,7 @@ async function makeMovieObj(id) {
     const urlDetails = `https://api.themoviedb.org/3/movie/${id}`;
     const urlImages = `https://api.themoviedb.org/3/movie/${id}/images?include_image_language=null`;
     const obj = {
+        id: "",
         title: "",
         poster: "",
         description: "",
@@ -22,6 +23,7 @@ async function makeMovieObj(id) {
 
     // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
+        obj.id = r.data.id;
         obj.title = r.data.title;
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
         obj.description = r.data.overview;
@@ -50,12 +52,13 @@ async function foo() {
 
     console.log(list);
     for (let i = 0; i < list.length; i++) {
-        console.log(list[i])
+        console.log(list[i]);
         await makeMovieObj(list[i]).then((r) => final.push(r));
     }
     response.items = final;
+
     axios.put("http://localhost:3001/products", response);
 
-    console.log(response);
-    console.log(final);
 }
+
+export default foo;
