@@ -9,7 +9,7 @@ function getProducts() {
 function getCart() {
     const request = axios.get("http://localhost:3001/cart");
 
-    return request.then((r) => r.data.items);
+    return request.then((r) => r.data);
 }
 
 // Get current cart array first then append new item.
@@ -18,13 +18,9 @@ async function addItemsToCart(foo) {
 
     await getCart().then((r) => (cart = r));
 
-    cart.push(foo);
+    cart.items.push(foo);
 
-    const request = axios.put("http://localhost:3001/cart", cart);
-
-    return request.then((r) => console.log(r.data));
+    axios.put("http://localhost:3001/cart", cart);
 }
 
-addItemsToCart("123");
-
-export { getProducts };
+export { getProducts, addItemsToCart };
