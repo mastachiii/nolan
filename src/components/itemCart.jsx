@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import { updateCart } from "../scripts/shop";
 
-function ItemCart({ value, index, handle }) {
+function ItemCart({ title, price, index, handle }) {
     const [quantity, setQuantity] = useState(1);
 
     const addQuantity = () => {
@@ -15,11 +15,11 @@ function ItemCart({ value, index, handle }) {
 
     return (
         <li>
-            ITEM #{index} - {value}
+            ITEM #{index} - {title}
             <button
                 onClick={() => {
-                    updateCart(value, "DELETE");
-                    handle(value); // Force a re-render after API Call.
+                    updateCart(title, "DELETE");
+                    handle(title); // Force a re-render after API Call.
                 }}
             >
                 REMOVE
@@ -27,12 +27,14 @@ function ItemCart({ value, index, handle }) {
             QTY. {quantity}
             <button onClick={addQuantity}>+</button>
             <button onClick={minusQuantity}>-</button>
+            <p>PRICE: ${price * quantity}</p>
         </li>
     );
 }
 
 ItemCart.propTypes = {
-    value: PropTypes.string,
+    title: PropTypes.string,
+    price: PropTypes.number,
     index: PropTypes.number,
     handle: PropTypes.func,
 };

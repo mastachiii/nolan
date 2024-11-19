@@ -10,7 +10,7 @@ function ItemShop() {
             <p>{data.title}</p>
             <button
                 onClick={() => {
-                    updateCart(data.title, "ADD");
+                    updateCart({ title: data.title, price: data.price }, "ADD");
                 }}
             >
                 Add To Cart

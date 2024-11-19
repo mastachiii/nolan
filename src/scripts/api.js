@@ -26,7 +26,7 @@ async function makeMovieObj(id) {
     await axios.get(urlDetails, options).then((r) => {
         obj.id = r.data.id;
         obj.title = r.data.title;
-        obj.price = "$" + Math.floor(Math.random() * 50);
+        obj.price = Math.floor(Math.random() * 50);
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
         obj.description = r.data.overview;
     });

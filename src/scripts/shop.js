@@ -18,10 +18,12 @@ function getCart() {
 async function updateCart(item, method) {
     let cart;
 
-    await getCart().then((r) => (cart = r));
+    await getCart().then((response) => {
+        cart = response;
+    });
 
     if (method === "ADD") {
-        cart.items.includes(item) ? null : cart.items.push(item);
+        cart.items.find((a) => a.title === item.title) ? null : cart.items.push(item);
     } else {
         cart.items = cart.items.filter((a) => a !== item);
     }

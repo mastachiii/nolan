@@ -8,7 +8,7 @@ function Cart() {
 
     useEffect(() => {
         getCart().then((response) => setCart(response.items));
-    }, [cart]);
+    }, []);
 
     const deleteCartItem = (item) => {
         setCart([...cart].filter((a) => a !== item));
@@ -17,7 +17,7 @@ function Cart() {
     return (
         <div>
             <p>CART</p>
-            <ul>{cart && cart.map((a, b) => <ItemCart index={b} value={a} handle={deleteCartItem} key={a} />)}</ul>
+            <ul>{cart && cart.map((a, b) => <ItemCart index={b + 1} title={a.title} handle={deleteCartItem} key={a.title} price={a.price} />)}</ul>
             <Link to="/shop">BACK TO SHOP</Link>
         </div>
     );
