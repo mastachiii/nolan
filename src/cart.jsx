@@ -14,8 +14,9 @@ function Cart() {
         });
     }, []);
 
-    const deleteCartItem = (title) => {
+    const deleteCartItem = (title, price) => {
         setCart([...cart].filter((a) => a.title !== title));
+        setTotalPrice((t) => t - price);
     };
 
     return (

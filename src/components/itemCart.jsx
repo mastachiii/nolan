@@ -26,7 +26,7 @@ function ItemCart({ title, price, index, handle, totalPriceHandler }) {
             <button
                 onClick={() => {
                     updateCart(title, "DELETE");
-                    handle(title); // Force a re-render after API Call.
+                    handle(title, price * quantity); // Force a re-render after API Call.
                 }}
             >
                 REMOVE
