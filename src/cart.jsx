@@ -5,10 +5,13 @@ import ItemCart from "./components/itemCart";
 
 function Cart() {
     const [cart, setCart] = useState(null);
-    const [totalPrice, setTotalPrice] = useState(0);
+    const [totalPrice, setTotalPrice] = useState(null);
 
     useEffect(() => {
-        getCart().then((response) => setCart(response.items));
+        getCart().then((response) => {
+            setCart(response.items);
+            setTotalPrice(response.items.reduce((a, b) => (a += b.price), 0));
+        });
     }, []);
 
     const deleteCartItem = (title) => {
@@ -18,7 +21,19 @@ function Cart() {
     return (
         <div>
             <p>CART</p>
-            <ul>{cart && cart.map((a, b) => <ItemCart index={b + 1} title={a.title} handle={deleteCartItem} key={a.title} price={a.price} />)}</ul>
+            <ul>
+                {cart &&
+                    cart.map((a, b) => (
+                        <ItemCart
+                            index={b + 1}
+                            title={a.title}
+                            handle={deleteCartItem}
+                            key={a.title}
+                            price={a.price}
+                            totalPriceHandler={setTotalPrice}
+                        />
+                    ))}
+            </ul>
             <h3>${totalPrice}</h3>
             <Link to="/shop">BACK TO SHOP</Link>
         </div>

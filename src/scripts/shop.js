@@ -31,4 +31,14 @@ async function updateCart(item, method) {
     axios.put("http://localhost:3001/cart", cart);
 }
 
-export { getProducts, getCart, updateCart };
+async function updateTotalPrice(price, method) {
+    let cart;
+
+    await getCart().then((response) => {
+        cart = response;
+    });
+
+    console.log(cart);
+}
+
+export { getProducts, getCart, updateCart, updateTotalPrice };

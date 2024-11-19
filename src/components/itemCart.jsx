@@ -1,16 +1,23 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { updateCart } from "../scripts/shop";
 
-function ItemCart({ title, price, index, handle }) {
+function ItemCart({ title, price, index, handle, totalPriceHandler }) {
     const [quantity, setQuantity] = useState(1);
 
+    // Change total price with each quantity change.
     const addQuantity = () => {
-        quantity < 10 ? setQuantity((q) => q + 1) : null;
+        if (quantity < 10) {
+            setQuantity((q) => q + 1);
+            totalPriceHandler((t) => t + price);
+        }
     };
 
     const minusQuantity = () => {
-        quantity > 1 ? setQuantity((q) => q - 1) : null;
+        if (quantity > 1) {
+            setQuantity((q) => q - 1);
+            totalPriceHandler((t) => t - price);
+        }
     };
 
     return (
@@ -37,6 +44,7 @@ ItemCart.propTypes = {
     price: PropTypes.number,
     index: PropTypes.number,
     handle: PropTypes.func,
+    totalPriceHandler: PropTypes.func,
 };
 
 export default ItemCart;
