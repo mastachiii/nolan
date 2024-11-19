@@ -8,10 +8,13 @@ function Homepage() {
                 <h3>NOLAN</h3>
             </nav>
             <div className={styles.mainPage}>
-                <p>Cinema at it{"'"}s best.</p>
-                <div>
-                    <Link to="shop">SHOP NOW</Link>
-                </div>
+                <section>
+                    <p>Cinema at it{"'"}s best.</p>
+                    <div>
+                        <Link to="shop">SHOP NOW</Link>
+                    </div>
+                </section>
+                <img src="/nolan-murphy.jpg" alt="" />
             </div>
         </main>
     );
