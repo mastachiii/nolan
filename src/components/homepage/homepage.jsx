@@ -9,7 +9,7 @@ function Homepage() {
             </nav>
             <div className={styles.mainPage}>
                 <p>Cinema at it{"'"}s best.</p>
-                <div className={styles.shop}>
+                <div>
                     <Link to="shop">SHOP NOW</Link>
                 </div>
             </div>
