@@ -6,6 +6,7 @@
         "id": 240,
         "title": "The Godfather Part II",
         "poster": "https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+        "price": "$11",
         "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
@@ -48,13 +49,15 @@
           "https://image.tmdb.org/t/p/original/p483x7LqvBfrCwJU7YqezQaj4G0.jpg",
           "https://image.tmdb.org/t/p/original/2owuBfCISywfna4P8J4hLsnUTy3.jpg",
           "https://image.tmdb.org/t/p/original/wgiGqqGONr8uqdRflclvHP7ColJ.jpg",
-          "https://image.tmdb.org/t/p/original/n8yloJROg9tgnAcV0Yski1LSKIf.jpg"
+          "https://image.tmdb.org/t/p/original/n8yloJROg9tgnAcV0Yski1LSKIf.jpg",
+          "https://image.tmdb.org/t/p/original/hVjTD4O80HatDgCdRrdlsawRpGZ.jpg"
         ]
       },
       {
         "id": 496243,
         "title": "Parasite",
         "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "price": "$6",
         "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
@@ -118,6 +121,7 @@
         "id": 769,
         "title": "GoodFellas",
         "poster": "https://image.tmdb.org/t/p/original/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+        "price": "$37",
         "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/7TF4p86ZafnxFuNqWdhpHXFO244.jpg",
@@ -177,6 +181,7 @@
         "id": 7345,
         "title": "There Will Be Blood",
         "poster": "https://image.tmdb.org/t/p/original/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+        "price": "$45",
         "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/8LRcCJjbQI552BMCuGgYqph8USS.jpg",
@@ -215,6 +220,7 @@
         "id": 670,
         "title": "Oldboy",
         "poster": "https://image.tmdb.org/t/p/original/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+        "price": "$23",
         "description": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
@@ -272,6 +278,7 @@
         "id": 6977,
         "title": "No Country for Old Men",
         "poster": "https://image.tmdb.org/t/p/original/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg",
+        "price": "$28",
         "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/kd9jFTTabg4xJpHDgxY0h8F9BzG.jpg",
@@ -307,6 +314,7 @@
         "id": 807,
         "title": "Se7en",
         "poster": "https://image.tmdb.org/t/p/original/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+        "price": "$44",
         "description": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/p1PLSI5Nw2krGxD7X4ulul1tDAk.jpg",
@@ -347,6 +355,7 @@
         "id": 1422,
         "title": "The Departed",
         "poster": "https://image.tmdb.org/t/p/original/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
+        "price": "$3",
         "description": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/6WRrGYalXXveItfpnipYdayFkQB.jpg",
@@ -397,6 +406,7 @@
         "id": 11104,
         "title": "Chungking Express",
         "poster": "https://image.tmdb.org/t/p/original/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
+        "price": "$32",
         "description": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/8e6avmXiqurj5LHkmdHBq6rc5jm.jpg",
@@ -476,6 +486,7 @@
         "id": 680,
         "title": "Pulp Fiction",
         "poster": "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+        "price": "$37",
         "description": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
@@ -526,6 +537,7 @@
         "id": 1578,
         "title": "Raging Bull",
         "poster": "https://image.tmdb.org/t/p/original/8p2ld8P41uY32kusYNPBjX5mFGn.jpg",
+        "price": "$37",
         "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/aAStHDJgD97k4g4Zf0NLqbAmrvZ.jpg",
@@ -570,6 +582,7 @@
         "id": 694,
         "title": "The Shining",
         "poster": "https://image.tmdb.org/t/p/original/nRj5511mZdTl4saWEPoj9QroTIu.jpg",
+        "price": "$33",
         "description": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
@@ -620,6 +633,7 @@
         "id": 426,
         "title": "Vertigo",
         "poster": "https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+        "price": "$19",
         "description": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
@@ -685,6 +699,7 @@
         "id": 38,
         "title": "Eternal Sunshine of the Spotless Mind",
         "poster": "https://image.tmdb.org/t/p/original/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+        "price": "$37",
         "description": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/12imOn96zRI2EMHOjOxm2qNY2BA.jpg",
@@ -754,6 +769,7 @@
         "id": 550,
         "title": "Fight Club",
         "poster": "https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+        "price": "$18",
         "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
@@ -794,6 +810,7 @@
         "id": 976893,
         "title": "Perfect Days",
         "poster": "https://image.tmdb.org/t/p/original/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg",
+        "price": "$8",
         "description": "Hirayama is content with his life as a toilet cleaner in Tokyo. Outside of his structured routine, he cherishes music on cassette tapes, books, and taking photos of trees. Through unexpected encounters, he reflects on finding beauty in the world.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/67BHTjyEgURL60irOQu54qZ3zDk.jpg",
@@ -830,6 +847,7 @@
         "id": 68718,
         "title": "Django Unchained",
         "poster": "https://image.tmdb.org/t/p/original/bV0rWoiRo7pHUTQkh6Oio6irlXO.jpg",
+        "price": "$8",
         "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/5Lbm0gpFDRAPIV1Cth6ln9iL1ou.jpg",
@@ -872,6 +890,7 @@
         "id": 968,
         "title": "Dog Day Afternoon",
         "poster": "https://image.tmdb.org/t/p/original/mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
+        "price": "$34",
         "description": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/m10uqk0HI5JcITAbxNJIIiGA8HP.jpg",
@@ -895,6 +914,7 @@
         "id": 274,
         "title": "The Silence of the Lambs",
         "poster": "https://image.tmdb.org/t/p/original/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+        "price": "$9",
         "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/aYcnDyLMnpKce1FOYUpZrXtgUye.jpg",
@@ -947,6 +967,7 @@
         "id": 423,
         "title": "The Pianist",
         "poster": "https://image.tmdb.org/t/p/original/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
+        "price": "$47",
         "description": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/dVr11o9or7AS8AMPfwjSpEU83iU.jpg",
@@ -973,6 +994,7 @@
         "id": 843,
         "title": "In the Mood for Love",
         "poster": "https://image.tmdb.org/t/p/original/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+        "price": "$47",
         "description": "In Hong Kong of 1962, Mrs. Chan and Mr. Chow, a journalist, move into neighbouring apartments on the same day. Their encounters are formal and polite—until a discovery about their respective spouses creates an intimate bond between them.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/n4GJFGzsc7NinI1VeGDXIcQjtU2.jpg",
@@ -1012,6 +1034,7 @@
         "id": 238,
         "title": "The Godfather",
         "poster": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+        "price": "$43",
         "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
@@ -1052,6 +1075,7 @@
         "id": 2108,
         "title": "The Breakfast Club",
         "poster": "https://image.tmdb.org/t/p/original/vSqk5BeQ1HvP9wq0rWZyWqiwXeF.jpg",
+        "price": "$43",
         "description": "Five high school students from different walks of life endure a Saturday detention under a power-hungry principal. The disparate group includes rebel John, princess Claire, outcast Allison, brainy Brian and Andrew, the jock. Each has a chance to tell his or her story, making the others see them a little differently -- and when the day ends, they question whether school will ever be the same.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/qpPFF8Sed5lkXngWraJdN8WkwDG.jpg",
@@ -1090,6 +1114,7 @@
         "id": 12493,
         "title": "High and Low",
         "poster": "https://image.tmdb.org/t/p/original/tgNjemQPG96uIezpiUiXFcer5ga.jpg",
+        "price": "$20",
         "description": "In the midst of an attempt to take over his company, a powerhouse executive is hit with a huge ransom demand when his chauffeur's son is kidnapped by mistake.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/gSCT6oP2Sbm71naW28Lh7afcMgY.jpg",
@@ -1119,6 +1144,7 @@
         "id": 666277,
         "title": "Past Lives",
         "poster": "https://image.tmdb.org/t/p/original/rzO71VFu7CpJMfF5TQNMj0d1lSV.jpg",
+        "price": "$36",
         "description": "Nora and Hae Sung, two childhood friends, are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/7HR38hMBl23lf38MAN63y4pKsHz.jpg",
@@ -1175,6 +1201,7 @@
         "id": 949,
         "title": "Heat",
         "poster": "https://image.tmdb.org/t/p/original/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
+        "price": "$24",
         "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/6N1uy1r66mXHefU3gG9ePZgijCW.jpg",
@@ -1213,6 +1240,7 @@
         "id": 466272,
         "title": "Once Upon a Time... in Hollywood",
         "poster": "https://image.tmdb.org/t/p/original/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+        "price": "$7",
         "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/xwgBHC2FgoIrQitl8jZwXXdsR9u.jpg",
@@ -1285,6 +1313,7 @@
         "id": 111,
         "title": "Scarface",
         "poster": "https://image.tmdb.org/t/p/original/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+        "price": "$47",
         "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/1qM2BYNE11Viby8ImC9LC00DgDr.jpg",
@@ -1319,6 +1348,7 @@
         "id": 27554,
         "title": "The Panic in Needle Park",
         "poster": "https://image.tmdb.org/t/p/original/rhJ8Dnl6Z9KR9R2zskBKIfrFeFs.jpg",
+        "price": "$45",
         "description": "A stark portrayal of life among a group of heroin addicts who hang out in Needle Park in New York City. Played against this setting is a low-key love story between Bobby, a young addict and small-time hustler, and Helen, a homeless girl who finds in her relationship with Bobby the stability she craves.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/rHhNgpxeuIglRO7Fskmk7Ru6Nke.jpg",
@@ -1340,6 +1370,7 @@
         "id": 8392,
         "title": "My Neighbor Totoro",
         "poster": "https://image.tmdb.org/t/p/original/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+        "price": "$17",
         "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/fxYazFVeOCHpHwuqGuiqcCTw162.jpg",
@@ -1424,6 +1455,7 @@
         "id": 2640,
         "title": "Heathers",
         "poster": "https://image.tmdb.org/t/p/original/qojEzGpvbrYrhZV9arCZhkYQT3d.jpg",
+        "price": "$15",
         "description": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/5pLaYZGbweHYULiNiRehPxYuUnn.jpg",
@@ -1459,6 +1491,7 @@
         "id": 9366,
         "title": "Donnie Brasco",
         "poster": "https://image.tmdb.org/t/p/original/xtKLvpOfARi1XVm8u2FTdhY5Piq.jpg",
+        "price": "$18",
         "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/7aWpb0sfGteTomS9DP5NWDeD7DL.jpg",
@@ -1479,6 +1512,7 @@
         "id": 27205,
         "title": "Inception",
         "poster": "https://image.tmdb.org/t/p/original/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+        "price": "$48",
         "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
@@ -1527,6 +1561,7 @@
         "id": 106646,
         "title": "The Wolf of Wall Street",
         "poster": "https://image.tmdb.org/t/p/original/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
+        "price": "$5",
         "description": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
@@ -1591,6 +1626,7 @@
         "id": 640,
         "title": "Catch Me If You Can",
         "poster": "https://image.tmdb.org/t/p/original/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
+        "price": "$10",
         "description": "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/Ag6qhzsJd3k1NKuNrG9RmhZDMh7.jpg",
@@ -1613,6 +1649,7 @@
         "id": 105,
         "title": "Back to the Future",
         "poster": "https://image.tmdb.org/t/p/original/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+        "price": "$8",
         "description": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
@@ -1669,6 +1706,7 @@
         "id": 161,
         "title": "Ocean's Eleven",
         "poster": "https://image.tmdb.org/t/p/original/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
+        "price": "$43",
         "description": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/ncoqdHs1poUaBqyKic9YI8ai7MP.jpg",
@@ -1708,6 +1746,7 @@
         "id": 284,
         "title": "The Apartment",
         "poster": "https://image.tmdb.org/t/p/original/mQFw91P5t4cT199BGQDzjVJcSUl.jpg",
+        "price": "$49",
         "description": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/rzdQXrK37OBArogzCk7inEaW0mS.jpg",
@@ -1749,6 +1788,7 @@
         "id": 639,
         "title": "When Harry Met Sally...",
         "poster": "https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg",
+        "price": "$47",
         "description": "During their travel from Chicago to New York, Harry and Sally debate whether or not sex ruins a friendship between a man and a woman. Eleven years later, and they're still no closer to finding the answer.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/dbdegCWeD4iK5LXxSBjGdIRsVXS.jpg",
@@ -1775,6 +1815,7 @@
         "id": 76,
         "title": "Before Sunrise",
         "poster": "https://image.tmdb.org/t/p/original/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
+        "price": "$23",
         "description": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
@@ -1806,6 +1847,7 @@
         "id": 1402,
         "title": "The Pursuit of Happyness",
         "poster": "https://image.tmdb.org/t/p/original/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg",
+        "price": "$31",
         "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/5jhG1lTgV0MS6tDkBMQSSitttTT.jpg",
@@ -1829,6 +1871,7 @@
         "id": 103,
         "title": "Taxi Driver",
         "poster": "https://image.tmdb.org/t/p/original/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
+        "price": "$33",
         "description": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/6aoyUbvu0419XLKLIMoH0TkEicH.jpg",
@@ -1876,6 +1919,7 @@
         "id": 37799,
         "title": "The Social Network",
         "poster": "https://image.tmdb.org/t/p/original/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+        "price": "$42",
         "description": "The tale of a new breed of cultural insurgent: a punk genius who sparked a revolution and changed the face of human interaction for a generation, and perhaps forever. Chronicling the formation of Facebook and the battles over ownership that followed upon the website's unfathomable success, The Social Network bears witness to the birth of an idea that rewove the fabric of society even as it unraveled the friendship of its creators.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
@@ -1920,6 +1964,7 @@
         "id": 64690,
         "title": "Drive",
         "poster": "https://image.tmdb.org/t/p/original/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+        "price": "$43",
         "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/9ly9pxGwiB6g5lIZXou2HKXl7ua.jpg",
@@ -1964,6 +2009,7 @@
         "id": 429,
         "title": "The Good, the Bad and the Ugly",
         "poster": "https://image.tmdb.org/t/p/original/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+        "price": "$4",
         "description": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/Adrip2Jqzw56KeuV2nAxucKMNXA.jpg",
@@ -2002,6 +2048,7 @@
         "id": 1949,
         "title": "Zodiac",
         "poster": "https://image.tmdb.org/t/p/original/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+        "price": "$6",
         "description": "The zodiac murders cause the lives of Paul Avery, David Toschi and Robert Graysmith to intersect.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/elzsm8vIpYVh0s6ztFEKElqgXqe.jpg",
@@ -2034,6 +2081,7 @@
         "id": 11220,
         "title": "Fallen Angels",
         "poster": "https://image.tmdb.org/t/p/original/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
+        "price": "$26",
         "description": "An assassin goes through obstacles as he attempts to escape his violent lifestyle despite the opposition of his partner, who is secretly attracted to him.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/caTWaNaPdRv18HCfxVBRYR9uyhJ.jpg",
@@ -2079,6 +2127,7 @@
         "id": 1847,
         "title": "The Long Goodbye",
         "poster": "https://image.tmdb.org/t/p/original/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg",
+        "price": "$47",
         "description": "In 1970s Hollywood, Detective Philip Marlowe tries to help a friend who is accused of murdering his wife.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/g3KOnOycUThwV4PRjtiAK0CuzID.jpg",
@@ -2106,6 +2155,7 @@
         "id": 1359,
         "title": "American Psycho",
         "poster": "https://image.tmdb.org/t/p/original/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+        "price": "$0",
         "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/rRwD4MoBlkBXWQ6PDnbKRSU5dDu.jpg",
@@ -2159,6 +2209,7 @@
         "id": 492188,
         "title": "Marriage Story",
         "poster": "https://image.tmdb.org/t/p/original/2JRyCKaRKyJAVpsIHeLvPw5nHmw.jpg",
+        "price": "$17",
         "description": "A stage director and an actress struggle through a grueling, coast-to-coast divorce that pushes them to their personal extremes.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/4PCO7tewIGnE6ySjVf2DbJ3pjqq.jpg",
@@ -2186,6 +2237,7 @@
         "id": 976,
         "title": "Sweet Smell of Success",
         "poster": "https://image.tmdb.org/t/p/original/akzvV8JasNrgEl5iAP9K6zPHGJe.jpg",
+        "price": "$11",
         "description": "New York City newspaper writer J.J. Hunsecker holds considerable sway over public opinion with his Broadway column, but one thing that he can't control is his younger sister, Susan, who is in a relationship with aspiring jazz guitarist Steve Dallas. Hunsecker strongly disapproves of the romance and recruits publicist Sidney Falco to find a way to split the couple, no matter how ruthless the method.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/6L1Co3uRWuoaqDxpWvGDvgXms7T.jpg",
@@ -2209,6 +2261,7 @@
         "id": 10494,
         "title": "Perfect Blue",
         "poster": "https://image.tmdb.org/t/p/original/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
+        "price": "$12",
         "description": "Encouraged by her managers, rising pop star Mima takes on a recurring role on a popular TV show, when suddenly her handlers and collaborators begin turning up murdered.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/ns4vN9p3Z0inYlhh4q9vYXUw3zp.jpg",
@@ -2248,6 +2301,7 @@
         "id": 11,
         "title": "Star Wars",
         "poster": "https://image.tmdb.org/t/p/original/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+        "price": "$15",
         "description": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
@@ -2327,6 +2381,7 @@
         "id": 1366,
         "title": "Rocky",
         "poster": "https://image.tmdb.org/t/p/original/aYtBYWqCdUqcnoodWJdcTG3pFev.jpg",
+        "price": "$39",
         "description": "An uneducated collector for a Philadelphia loan shark is given a once-in-a-lifetime opportunity to fight against the world heavyweight boxing champion.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/kK9v1wclQxug6ZUJucD4DTaHgVF.jpg",
@@ -2355,6 +2410,7 @@
         "id": 984,
         "title": "Dirty Harry",
         "poster": "https://image.tmdb.org/t/p/original/UHxxkYe9tRdiPu0JFgcEL5hmQ4.jpg",
+        "price": "$1",
         "description": "When a madman dubbed 'Scorpio' terrorizes San Francisco, hard-nosed cop, Harry Callahan – famous for his take-no-prisoners approach to law enforcement – is tasked with hunting down the psychopath.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/mJjOZSaTTqG3an5MkkOX3x18lYX.jpg",
@@ -2381,6 +2437,7 @@
         "id": 490132,
         "title": "Green Book",
         "poster": "https://image.tmdb.org/t/p/original/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
+        "price": "$15",
         "description": "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/2Xe9lISpwXKhvKiHttbFfVRERQX.jpg",
@@ -2414,6 +2471,7 @@
         "id": 1892,
         "title": "Return of the Jedi",
         "poster": "https://image.tmdb.org/t/p/original/jQYlydvHm3kUix1f8prMucrplhm.jpg",
+        "price": "$44",
         "description": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/7dRclUQeG8kxadrXn7BcwnxZvh5.jpg",
@@ -2479,6 +2537,7 @@
         "id": 13,
         "title": "Forrest Gump",
         "poster": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+        "price": "$44",
         "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/ghgfzbEV7kbpbi1O8eIILKVXEA8.jpg",
@@ -2507,6 +2566,7 @@
         "id": 157336,
         "title": "Interstellar",
         "poster": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "price": "$22",
         "description": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
@@ -2617,6 +2677,7 @@
         "id": 4951,
         "title": "10 Things I Hate About You",
         "poster": "https://image.tmdb.org/t/p/original/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
+        "price": "$49",
         "description": "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the only guy who could possibly be a match for Kat: a mysterious bad boy with a nasty reputation of his own.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/yvPbncYhMu9FfTjDhq0N5lgnVkO.jpg",
@@ -2693,6 +2754,7 @@
         "id": 3176,
         "title": "Battle Royale",
         "poster": "https://image.tmdb.org/t/p/original/gFX7NuBUeKysOB9nEzRqVpHNT32.jpg",
+        "price": "$35",
         "description": "In the future, the Japanese government captures a class of ninth-grade students and forces them to kill each other under the revolutionary \"Battle Royale\" act.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/gtYmm8HeM6CneomZ98flixAGsBe.jpg",
@@ -2726,6 +2788,7 @@
         "id": 24,
         "title": "Kill Bill: Vol. 1",
         "poster": "https://image.tmdb.org/t/p/original/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+        "price": "$2",
         "description": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/lVy5Zqcty2NfemqKYbVJfdg44rK.jpg",
@@ -2773,6 +2836,7 @@
         "id": 393,
         "title": "Kill Bill: Vol. 2",
         "poster": "https://image.tmdb.org/t/p/original/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+        "price": "$32",
         "description": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/akXPz7zK6NZ8YxGqjcHunGK9bXL.jpg",
@@ -2802,6 +2866,7 @@
         "id": 244786,
         "title": "Whiplash",
         "poster": "https://image.tmdb.org/t/p/original/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+        "price": "$48",
         "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/5h8VtV4oh2qkO8Iqz7gypIYJPAr.jpg",
@@ -2855,6 +2920,7 @@
         "id": 318846,
         "title": "The Big Short",
         "poster": "https://image.tmdb.org/t/p/original/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
+        "price": "$48",
         "description": "The men who made millions from a global economic meltdown.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/i7UCf0ysjbYYaqcSKUox9BJz4Kp.jpg",
@@ -2883,6 +2949,7 @@
         "id": 503919,
         "title": "The Lighthouse",
         "poster": "https://image.tmdb.org/t/p/original/4SC4cyzHWWzDEdszdxHYPWd32YH.jpg",
+        "price": "$24",
         "description": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/i51wnN9phojyn14xHjQt6rv1r0x.jpg",
@@ -2923,6 +2990,7 @@
         "id": 872585,
         "title": "Oppenheimer",
         "poster": "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "price": "$9",
         "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
@@ -3004,6 +3072,7 @@
         "id": 170,
         "title": "28 Days Later",
         "poster": "https://image.tmdb.org/t/p/original/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+        "price": "$9",
         "description": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/veUl0QT8swshQ9Dz0fQ1k6ZkthD.jpg",
@@ -3034,6 +3103,7 @@
         "id": 16869,
         "title": "Inglourious Basterds",
         "poster": "https://image.tmdb.org/t/p/original/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
+        "price": "$1",
         "description": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/1Jpkm9qZcsT0mSyVXgs4VlGjPNI.jpg",
@@ -3085,6 +3155,7 @@
         "id": 650,
         "title": "Boyz n the Hood",
         "poster": "https://image.tmdb.org/t/p/original/v4ox4aSCNT5vyLXl4Q71JiWwCXW.jpg",
+        "price": "$46",
         "description": "In the middle of the Los Angeles ghetto, drugs, robberies and shootings dominate everyday life. During these times, Furious tries to raise his son Tre to be a decent person. Tre's friends, on the other hand, have little regard for the law and drag the entire neighborhood into a street war...",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/ojzo9tMl8ZLrQgdGApZJFLuS331.jpg",
@@ -3100,6 +3171,7 @@
         "id": 2109,
         "title": "Rush Hour",
         "poster": "https://image.tmdb.org/t/p/original/9FRw2qOU74GLSWbDkX6wWp6mgQD.jpg",
+        "price": "$5",
         "description": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/9YRKhVQx174hQn35f8k1MWKLAFQ.jpg",
@@ -3126,6 +3198,7 @@
         "id": 152532,
         "title": "Dallas Buyers Club",
         "poster": "https://image.tmdb.org/t/p/original/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg",
+        "price": "$45",
         "description": "Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/sbVKj98cq0FztCukzu47bu0H8o7.jpg",
@@ -3155,6 +3228,7 @@
         "id": 3558,
         "title": "Girl, Interrupted",
         "poster": "https://image.tmdb.org/t/p/original/dOBdatHIVppvmRFw2z7bf9VKJr9.jpg",
+        "price": "$5",
         "description": "Set in the changing world of the late 1960s, Susanna Kaysen's prescribed \"short rest\" from a psychiatrist she had met only once becomes a strange, unknown journey into Alice's Wonderland, where she struggles with the thin line between normal and crazy. Susanna soon realizes how hard it is to get out once she has been committed, and she ultimately has to choose between the world of people who belong inside or the difficult world of reality outside.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/qPwwAUeO0b2RU1wHPyx8vf5RgF5.jpg",
@@ -3193,6 +3267,7 @@
         "id": 11324,
         "title": "Shutter Island",
         "poster": "https://image.tmdb.org/t/p/original/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg",
+        "price": "$27",
         "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
         "backdrops": [
           "https://image.tmdb.org/t/p/original/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg",
@@ -3228,9 +3303,7 @@
   },
   "cart": {
     "id": "cart",
-    "items": [
-      "The Godfather Part II"
-    ]
+    "items": []
   },
   "list": {
     "id": "list",
