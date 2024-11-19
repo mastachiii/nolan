@@ -3303,12 +3303,7 @@
   },
   "cart": {
     "id": "cart",
-    "items": [
-      {
-        "title": "No Country for Old Men",
-        "price": 42
-      }
-    ]
+    "items": []
   },
   "list": {
     "id": "list",

@@ -25,7 +25,7 @@ async function updateCart(item, method) {
     if (method === "ADD") {
         cart.items.find((a) => a.title === item.title) ? null : cart.items.push(item);
     } else {
-        cart.items = cart.items.filter((a) => a !== item);
+        cart.items = cart.items.filter((a) => a.title !== item); // Adding a movie passes in an object while deleting passes in movie title
     }
 
     axios.put("http://localhost:3001/cart", cart);
