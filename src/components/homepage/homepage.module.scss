@@ -93,3 +93,32 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .mainPage {
+        section {
+            width: 100%;
+            text-align: center;
+            p {
+                font-size: 5rem;
+            }
+
+            div {
+                padding: calc(16rem / 16);
+                margin: 2rem auto;
+
+                a {
+                    font-size: calc(15rem / 16);
+                }
+
+                &:active {
+                    background-color: $primary-color;
+                }
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+}
