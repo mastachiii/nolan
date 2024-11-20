@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
 function Carousel() {
@@ -26,31 +25,26 @@ function Carousel() {
     ];
     const [index, setIndex] = useState(0);
     const handleIndexIncrement = () => setIndex((i) => i + 1);
-    const handleIndexDecrement = () => setIndex((i) => i - 1);
 
     useEffect(() => {
-        const timeout = setTimeout(handleIndexIncrement, 2000);
+        const timeout = setTimeout(handleIndexIncrement, 4000);
 
         return () => {
             clearTimeout(timeout);
         };
     }, [index]);
+
     if (index >= images.length) return setIndex(0);
-    if (index < 0) return setIndex(images.length - 1);
 
     return (
         <>
             <div style={{ display: "flex" }}>
-                <img src={images[index].image} alt="" />
+                <img src={images[index].image} alt="" style={{width: '500px'}}/>
                 <p>{images[index].title}</p>
             </div>
             <p>Movie title</p>
         </>
     );
 }
-
-Carousel.propTypes = {
-    index: PropTypes.number,
-};
 
 export default Carousel;

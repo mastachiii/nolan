@@ -1,0 +1,15 @@
+@import "../../main.scss";
+
+.showCase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary-color;
+    color: $primary-color-2;
+    
+    > h1 {
+        margin: 2rem 0 0 0;
+        font-size: 4rem;
+        font-family: sans-serif;
+    }
+}
