@@ -2,9 +2,10 @@
 
 .showCase {
     display: flex;
+    justify-content: space-between;
     background-color: $primary-color;
     color: $primary-color-2;
-    padding: 2rem;
+    padding: 10rem 0;
 
     > h1 {
         margin: 2rem 0;

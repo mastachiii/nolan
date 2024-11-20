@@ -3,15 +3,12 @@
 .carousel {
     display: flex;
     flex-direction: column;
-    align-items: center;
     
     img {
         width: 90%;
-
     }
 
     p {
-        font-size: 2rem;
         font-weight: 200;
         font-family: Helvetica, sans-serif   ;
     }
