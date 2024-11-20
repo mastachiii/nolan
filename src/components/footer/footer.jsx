@@ -2,7 +2,7 @@ import styles from "./footer.module.scss";
 
 function Footer() {
     return (
-        <div>
+        <div className={styles.container}>
             <footer>
                 <section className={styles.links}>
                     <h4>USEFUL LINKS</h4>
@@ -29,7 +29,9 @@ function Footer() {
                     </div>
                 </section>
             </footer>
-            <section>GITHUB</section>
+            <a href="https://github.com/mastachiii" target="_blank" className={styles.github}>
+                <img src="/social/github.svg" alt="" />
+            </a>
         </div>
     );
 }
