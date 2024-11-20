@@ -4,8 +4,8 @@ function ShowCase() {
 
     return (
         <section className={styles.showCase}>
-            <h1>Only the finest</h1>
             <Carousel />
+            <h1>Only the finest</h1>
             <p>Hours of scouring through Letterboxd lists to .</p>
         </section>
     );

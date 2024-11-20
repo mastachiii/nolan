@@ -17,11 +17,11 @@ function Carousel() {
         },
         {
             title: "Shutter Island",
-            image: "https://image.tmdb.org/t/p/original/lavdyiJWciCJvyLG37ZOs6HJijg.jpg",
+            image: "https://image.tmdb.org/t/p/original/8xt8AMb1OKC63AdhNSaYBWxB4Iq.jpg",
         },
         {
             title: "Taxi Driver",
-            image: "https://image.tmdb.org/t/p/original/9uddYYTNcLWpzUkl5iw1RUYhLhY.jpg",
+            image: "https://image.tmdb.org/t/p/original/a58oc5qGNazb3QOxEH8eG5S7gjr.jpg",
         },
     ];
     const [index, setIndex] = useState(0);
@@ -43,7 +43,6 @@ function Carousel() {
                 <img src={images[index].image} alt=""/>
                 <p>{images[index].title}</p>
             </div>
-            <p>Movie title</p>
         </>
     );
 }

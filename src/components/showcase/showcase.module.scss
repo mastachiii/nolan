@@ -2,8 +2,6 @@
 
 .showCase {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: $primary-color;
     color: $primary-color-2;
     padding: 2rem;
@@ -13,4 +11,6 @@
         font-size: 4rem;
         font-family: sans-serif;
     }
+
+    
 }
