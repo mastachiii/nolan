@@ -11,6 +11,19 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .carousel {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+
+        img {
+            width: 100%;
+            margin: 0 0 0 0;
+        }
+    }
+}
+
 @media (max-width: 600px) {
     .carousel {
         display: block;

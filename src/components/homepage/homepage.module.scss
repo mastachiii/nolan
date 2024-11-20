@@ -103,11 +103,14 @@
         section {
             width: 100%;
             text-align: center;
+            margin: auto;
+
             p {
-                font-size: 4rem;
+                font-size: 6rem;
             }
 
             div {
+                margin: 0;
                 padding: calc(16rem / 16);
                 margin: 2rem auto;
 
