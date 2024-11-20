@@ -19,6 +19,7 @@ footer {
             font-size: calc(20rem / 16);
             font-weight: 500;
             font-family: sans-serif;
+            letter-spacing: 2px;
         }
     }
 }
@@ -100,5 +101,44 @@ footer {
 
     img {
         width: 35px;
+    }
+}
+
+@media (max-width: 600px), (max-width: 1000px) {
+    footer {
+        padding: 0;
+
+        > section {
+            width: 100%;
+
+            h4 {
+                margin: 2rem 0 1rem 0;
+                font-size: calc(10rem / 16);
+                letter-spacing: normal;
+            }
+        }
+    }
+
+    p {
+        font-size: calc(9rem / 16);
+    }
+
+    .newsletter {
+        input {
+            width: 100%;
+            font-size: calc(9rem / 16);
+            padding: 0;
+        }
+
+        button {
+            padding: calc(12rem / 16);
+            font-size: calc(9rem / 16);
+        }
+    }
+
+    .github {
+        img {
+            width: 25px;
+        }
     }
 }
