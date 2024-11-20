@@ -5,21 +5,23 @@
     justify-content: space-between;
     background-color: $primary-color;
     color: $primary-color-2;
-    padding: 10rem 0;
+    padding: 10rem 0 10rem 0;
 
     div {
         display: flex;
         flex-direction: column;
 
         h1 {
-            margin: 5rem 0;
+            margin: 5rem 2rem 2rem 2rem;
             font-size: 6rem;
             font-family: sans-serif;
         }
-
+        
         p {
-            font-size: calc(20rem / 16);
+            margin: 0 2rem;
+            font-size: calc(18rem / 16);
             font-family: Helvetica, sans-serif;
+            letter-spacing: 2px;
         }
     }
 }

@@ -6,7 +6,7 @@ function ShowCase() {
             <Carousel />
             <div>
                 <h1>Only the finest.</h1>
-                <p>Hours of scouring through Letterboxd lists to make the most opinionated movie marketplace on the web</p>
+                <p>Hours of scouring through Letterboxd lists to make the most opinionated movie marketplace on the web.</p>
             </div>
         </section>
     );
