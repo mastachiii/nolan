@@ -7,7 +7,7 @@ import ShowCase from "./components/showcase";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        {/* <RouterProvider router={route} /> */}
+        <RouterProvider router={route} />
         <ShowCase />
     </StrictMode>
 );
