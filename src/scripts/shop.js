@@ -51,4 +51,4 @@ const genres = [
     "Western",
 ];
 
-export { getProducts, getCart, updateCart };
+export { getProducts, getCart, updateCart, genres };
