@@ -16,7 +16,6 @@ function Homepage() {
                 </section>
                 <img src="/nolan-murphy.jpg" alt="" />
             </div>
-            <img src="/nolan-murphy.jpg" alt="" />
         </main>
     );
 }
