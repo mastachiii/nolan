@@ -20,7 +20,7 @@
         font-family: "Abril Fatface";
         font-size: 3rem;
         margin: 1rem 0;
-        color: $primary-color;
+        color: $primary-color-3;
     }
 
     img {
@@ -48,7 +48,7 @@
 
         div {
             width: fit-content;
-            padding: calc(8rem / 16);
+            padding: calc(12rem / 16);
             margin: 1rem 0 0 calc(8rem / 16);
             border: solid 2px $primary-color-3;
 
