@@ -7,11 +7,19 @@
     color: $primary-color-2;
     padding: 10rem 0;
 
-    > h1 {
-        margin: 2rem 0;
-        font-size: 4rem;
-        font-family: sans-serif;
-    }
+    div {
+        display: flex;
+        flex-direction: column;
 
-    
+        h1 {
+            margin: 5rem 0;
+            font-size: 6rem;
+            font-family: sans-serif;
+        }
+
+        p {
+            font-size: calc(20rem / 16);
+            font-family: Helvetica, sans-serif;
+        }
+    }
 }

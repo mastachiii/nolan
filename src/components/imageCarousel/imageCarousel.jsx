@@ -41,7 +41,6 @@ function Carousel() {
         <>
             <div className={styles.carousel}>
                 <img src={images[index].image} alt=""/>
-                <p>{images[index].title}</p>
             </div>
         </>
     );
