@@ -5,7 +5,7 @@ import Filters from "./components/filters";
 import { genres } from "./scripts/shop";
 
 function Shop() {
-    const [items, setItems] = useState(null);
+    const [items, setItems] = useState([]);
     const [filter, setFilter] = useState(null);
     const [search, setSearch] = useState("");
     const handleFilter = (genre) => () => setFilter(genre);
