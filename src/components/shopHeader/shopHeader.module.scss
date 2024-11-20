@@ -1,0 +1,11 @@
+@import "../../main.scss";
+
+.header {
+    a {
+        text-decoration: none;
+        color: $primary-color-3;
+        font-family: "Abril Fontface";
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}

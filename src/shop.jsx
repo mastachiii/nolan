@@ -2,6 +2,7 @@ import { getProducts } from "./scripts/shop";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Filters from "./components/filters";
+import ShopHeader from "./components/shopHeader/shopHeader";
 import { genres } from "./scripts/shop";
 
 function Shop() {
@@ -21,7 +22,7 @@ function Shop() {
 
     return (
         <div>
-            <p>SHOP</p>
+            <ShopHeader />
             <input type="text" value={search} onChange={handleSearch} />
             <ul>
                 {itemsToShow &&
