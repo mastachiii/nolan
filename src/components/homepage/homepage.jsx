@@ -11,7 +11,7 @@ function Homepage() {
                 </nav>
                 <div className={styles.mainPage}>
                     <section>
-                        <p>Cinema at its best.</p>
+                        <p>Cinema at its finest.</p>
                         <div>
                             <Link to="shop">SHOP NOW</Link>
                         </div>
