@@ -19,6 +19,7 @@ async function makeMovieObj(id) {
         poster: "",
         price: "",
         description: "",
+        genres: [],
         backdrops: [],
     };
 
@@ -29,6 +30,11 @@ async function makeMovieObj(id) {
         obj.price = Math.floor(Math.random() * 50);
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
         obj.description = r.data.overview;
+
+        // Map every genre object and push it to genres array.
+        const genres = r.data.genres;
+
+        genres.forEach((g) => obj.genres.push(g.name));
     });
 
     await axios.get(urlImages, options).then((r) => {
@@ -62,4 +68,16 @@ async function foo() {
     axios.put("http://localhost:3001/products", response);
 }
 
-export default foo;
+async function bar() {
+    const url = "https://api.themoviedb.org/3/genre/movie/list?language=en";
+    axios.get(url, options).then((r) =>
+        console.log(
+            r.data.genres
+                .filter((g) => g.name !== "Documentary" && g.name !== "TV Movie")
+                .map((g) => `'${g.name}'`)
+                .toString("")
+        )
+    );
+}
+
+export default bar;

@@ -26,5 +26,3 @@ async function makeMovieObj(id) {
         return null;
     }
 }
-
-export default makeMovieObj;

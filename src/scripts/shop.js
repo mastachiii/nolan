@@ -31,14 +31,24 @@ async function updateCart(item, method) {
     axios.put("http://localhost:3001/cart", cart);
 }
 
-async function updateTotalPrice(price, method) {
-    let cart;
+const genres = [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Crime",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "History",
+    "Horror",
+    "Music",
+    "Mystery",
+    "Romance",
+    "Science Fiction",
+    "Thriller",
+    "War",
+    "Western",
+];
 
-    await getCart().then((response) => {
-        cart = response;
-    });
-
-    console.log(cart);
-}
-
-export { getProducts, getCart, updateCart, updateTotalPrice };
+export { getProducts, getCart, updateCart };
