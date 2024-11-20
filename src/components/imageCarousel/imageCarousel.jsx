@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from './imageCarousel.module.scss'
 
 function Carousel() {
     const images = [
@@ -38,8 +39,8 @@ function Carousel() {
 
     return (
         <>
-            <div style={{ display: "flex" }}>
-                <img src={images[index].image} alt="" style={{width: '500px'}}/>
+            <div className={styles.carousel}>
+                <img src={images[index].image} alt=""/>
                 <p>{images[index].title}</p>
             </div>
             <p>Movie title</p>

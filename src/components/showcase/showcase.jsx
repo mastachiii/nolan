@@ -1,4 +1,4 @@
-import Carousel from "../imageCarousel";
+import Carousel from "../imageCarousel/imageCarousel";
 import styles from "./showcase.module.scss"
 function ShowCase() {
 
@@ -6,7 +6,7 @@ function ShowCase() {
         <section className={styles.showCase}>
             <h1>Only the finest</h1>
             <Carousel />
-            <p>Some cool lines.</p>
+            <p>Hours of scouring through Letterboxd lists to .</p>
         </section>
     );
 }
