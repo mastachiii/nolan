@@ -1,0 +1,92 @@
+@import "../../main.scss";
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    text-align: center;
+    font-family: Helvetica;
+    color: $primary-color-2;
+    background-color: $primary-color-3;
+
+    > section {
+        h4 {
+            margin: 0 0 2rem 0;
+            font-size: calc(20rem / 16);
+            font-weight: 500;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+    }
+}
+
+.links {
+    width: 20%;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+
+        p {
+            width: fit-content;
+            padding: 2px;
+
+            &:hover {
+                background-color: $primary-color-2;
+                color: $primary-color-3;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.newsletter {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        width: 70%;
+        padding: calc(10rem / 16);
+        margin-bottom: 1rem;
+        text-align: center;
+
+        &:focus {
+            outline: $primary-color-3;
+        }
+    }
+
+    button {
+        padding: 1rem;
+        background: none;
+        border: solid 1px $primary-color-2;
+        border-radius: 2rem;
+        color: $primary-color-2;
+        font-weight: 600;
+
+        &:hover {
+            color: $primary-color-3;
+            background-color: $primary-color-2;
+        }
+    }
+}
+
+.contact {
+    width: 20%;
+    background-color: $primary-color-3;
+
+    img {
+        width: 30px;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0 0 0;
+    }
+}

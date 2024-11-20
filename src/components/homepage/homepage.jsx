@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./homepage.module.scss";
 import ShowCase from "../showcase/showcase";
+import Footer from "../footer/footer";
 
 function Homepage() {
     return (
@@ -20,6 +21,7 @@ function Homepage() {
                 </div>
             </main>
             <ShowCase />
+            <Footer />
         </>
     );
 }
