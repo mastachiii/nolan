@@ -1,11 +1,33 @@
 @import "../../main.scss";
 
 .header {
+    display: flex;
+    justify-content: space-between;
+
     a {
+        margin: 0 0 0 2rem;
         text-decoration: none;
         color: $primary-color-3;
-        font-family: "Abril Fontface";
+        font-family: "Abril Fatface";
         font-weight: bold;
-        font-size: 2rem;
+        font-size: calc(40rem / 16);
+    }
+
+    a:nth-of-type(2){
+        width: 6rem;
+    }
+    
+    img {
+        width: 40px;
+        padding: 5px;
+        margin: 6px 0 0 1rem;
+        border: solid 1px transparent;
+        border-radius: 2rem;
+        transition: transform 200ms ease-in;
+
+        &:hover {
+            background-color: $primary-color;
+            transform: scale(1.2);
+        }
     }
 }
