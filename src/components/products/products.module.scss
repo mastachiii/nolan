@@ -3,8 +3,9 @@
 .products {
     width: 90%;
     display: flex;
-    margin: 2rem auto 0 auto;
-    column-gap: 2rem;
+    padding: 2rem;
+    margin: 0 auto 0 auto;
+    gap: 12px 2rem;
     flex-wrap: wrap;
     justify-content: center;
 }

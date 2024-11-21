@@ -4,12 +4,16 @@
 .card {
     width: 15%;
     margin: 0 0 2rem 0;
+    background-color: $primary-color-2;
+    transition: transform 200ms ease;
+    transition: padding 400ms ease;
+    position: relative;
 
     img {
         width: 100%;
     }
 
-    a {
+    p {
         display: block;
         margin: 5px 0 0 0;
         text-decoration: none;
@@ -17,5 +21,31 @@
         font-family: "Roboto";
         font-weight: bold;
         font-size: calc(13rem / 16);
+        transition: color 300ms ease;
+    }
+
+    div {
+        opacity: 0;
+
+        p {
+            font-size: calc(12rem / 16);
+            font-weight: normal;
+            color: $primary-color-3;
+        }
+    }
+
+    &:hover {
+        padding: 1rem ;
+        transform: scale(1.05);
+        background-color: $primary-color;
+        border-radius: 10px;
+
+        p {
+            color: $primary-color-2;
+        }
+
+        div {
+            opacity: 1;
+        }
     }
 }

@@ -6,9 +6,12 @@ function ProductCard({ title, id, details }) {
     console.log(details);
     return (
         <div className={styles.card}>
-            <img src={details.poster} alt="" />
             <Link to={`${id}`} state={details}>
-                {title}
+                <img src={details.poster} alt="" />
+                <p>{title}</p>
+                <div>
+                    <p>${details.price}</p>
+                </div>
             </Link>
         </div>
     );
