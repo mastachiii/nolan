@@ -23,7 +23,7 @@ function Shop() {
             <ShopHeader />
             <section>
                 <Products items={items} genreFilter={genre} searchFilter={search} />
-                <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} />
+                <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
             </section>
             <Link to="/">GO BACK</Link>
             <hr />
