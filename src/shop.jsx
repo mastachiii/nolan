@@ -4,17 +4,14 @@ import { Link } from "react-router-dom";
 import Filters from "./components/filters";
 import ShopHeader from "./components/shopHeader/shopHeader";
 import { genres } from "./scripts/shop";
+import Products from "./components/products";
 
 function Shop() {
     const [items, setItems] = useState([]);
-    const [filter, setFilter] = useState(null);
+    const [genre, setGenre] = useState(null);
     const [search, setSearch] = useState("");
-    const handleFilter = (genre) => () => setFilter(genre);
+    const handleGenre = (genre) => () => setGenre(genre);
     const handleSearch = (e) => setSearch(e.target.value);
-
-    let itemsToShow = items;
-    if (filter) itemsToShow = itemsToShow.filter((i) => i.genres.includes(filter));
-    itemsToShow = itemsToShow.filter((i) => i.title.toUpperCase().includes(search.toUpperCase()));
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
@@ -23,17 +20,8 @@ function Shop() {
     return (
         <div>
             <ShopHeader />
-            <ul>
-                {itemsToShow &&
-                    itemsToShow.map((a, b) => (
-                        <li key={a.id}>
-                            <Link to={`${a.id}`} state={itemsToShow[b]}>
-                                {a.title}
-                            </Link>
-                        </li>
-                    ))}
-            </ul>
-            <Filters genres={genres} genreHandler={handleFilter} search={search} searchHandler={handleSearch} />
+            <Products items={items} genreFilter={genre} searchFilter={search} />
+            <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} />
             <Link to="/">GO BACK</Link>
             <hr />
             <Link to="cart">TO CART</Link>
