@@ -51,3 +51,12 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .card {
+        width: 25%;
+        p {
+            font-size: calc(10rem / 16);
+        }
+    }
+}
