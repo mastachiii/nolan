@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 
-function Filters({ genres, handler }) {
+function Filters({ genres, genreHandler, search, searchHandler }) {
     return (
         <div>
-            <button onClick={handler(null)}>ALL</button>
+            <input type="text" value={search} onChange={searchHandler} />
+            <button onClick={genreHandler(null)}>ALL</button>
             {genres.map((g) => (
-                <button key={g} onClick={handler(g)}>
+                <button key={g} onClick={genreHandler(g)}>
                     {g}
                 </button>
             ))}
@@ -15,7 +16,9 @@ function Filters({ genres, handler }) {
 
 Filters.propTypes = {
     genres: PropTypes.array,
-    handler: PropTypes.func,
+    genreHandler: PropTypes.func,
+    search: PropTypes.string,
+    searchHandler: PropTypes.func,
 };
 
 export default Filters;

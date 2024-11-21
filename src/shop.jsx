@@ -23,7 +23,6 @@ function Shop() {
     return (
         <div>
             <ShopHeader />
-            <input type="text" value={search} onChange={handleSearch} />
             <ul>
                 {itemsToShow &&
                     itemsToShow.map((a, b) => (
@@ -34,7 +33,7 @@ function Shop() {
                         </li>
                     ))}
             </ul>
-            <Filters genres={genres} handler={handleFilter} />
+            <Filters genres={genres} genreHandler={handleFilter} search={search} searchHandler={handleSearch} />
             <Link to="/">GO BACK</Link>
             <hr />
             <Link to="cart">TO CART</Link>
