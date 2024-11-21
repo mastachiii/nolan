@@ -1,6 +1,5 @@
 import { getProducts } from "../../scripts/shop";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Filters from "../filters/filters";
 import ShopHeader from "../shopHeader/shopHeader";
 import { genres } from "../../scripts/shop";
@@ -25,9 +24,6 @@ function Shop() {
                 <Products items={items} genreFilter={genre} searchFilter={search} />
                 <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
             </section>
-            <Link to="/">GO BACK</Link>
-            <hr />
-            <Link to="cart">TO CART</Link>
         </main>
     );
 }
