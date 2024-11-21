@@ -1,0 +1,24 @@
+@import "../../main.scss";
+
+.filter {
+    width: 20%;
+    height: fit-content;
+    padding: calc(20rem / 16);
+    background-color: grey;
+    input {
+        width: 100%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            display: flex;
+
+            button {
+                padding: 1rem;
+            }
+        }
+    }
+}
