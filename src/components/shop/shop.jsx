@@ -20,11 +20,12 @@ function Shop() {
 
     return (
         <>
+
             <main className={styles.shop}>
                 <ShopHeader />
                 <section>
-                    <Products items={items} genreFilter={genre} searchFilter={search} />
                     <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
+                    <Products items={items} genreFilter={genre} searchFilter={search} />
                 </section>
             </main>
             <Footer />

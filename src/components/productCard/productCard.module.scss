@@ -7,7 +7,7 @@
     margin: 0 0 2rem 0;
     background-color: $primary-color-2;
     transition: transform 200ms ease;
-    transition: padding 400ms ease;
+    transition: padding 300ms ease;
     position: relative;
 
     img {
@@ -36,11 +36,12 @@
     }
 
     &:hover {
-        padding: 1rem ;
+        padding: 1rem;
         transform: scale(1.05);
         background-color: $primary-color;
         border-radius: 5px;
-
+        box-shadow: 0 5px 10px #000000, 0 15px 40px $primary-color-3;
+        transform: scale(1.1);
         p {
             color: $primary-color-2;
         }
