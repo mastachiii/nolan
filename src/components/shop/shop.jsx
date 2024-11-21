@@ -5,6 +5,7 @@ import ShopHeader from "../shopHeader/shopHeader";
 import { genres } from "../../scripts/shop";
 import Products from "../products/products";
 import styles from "./shop.module.scss";
+import Footer from "../footer/footer";
 
 function Shop() {
     const [items, setItems] = useState([]);
@@ -18,13 +19,16 @@ function Shop() {
     }, []);
 
     return (
-        <main className={styles.shop}>
-            <ShopHeader />
-            <section>
-                <Products items={items} genreFilter={genre} searchFilter={search} />
-                <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
-            </section>
-        </main>
+        <>
+            <main className={styles.shop}>
+                <ShopHeader />
+                <section>
+                    <Products items={items} genreFilter={genre} searchFilter={search} />
+                    <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
+                </section>
+            </main>
+            <Footer />
+        </>
     );
 }
 

@@ -25,6 +25,7 @@ async function makeMovieObj(id) {
 
     // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
+        console.log(r)
         obj.id = r.data.id;
         obj.title = r.data.title;
         obj.price = Math.floor(Math.random() * 50);
@@ -80,4 +81,4 @@ async function bar() {
     );
 }
 
-export default bar;
+export default makeMovieObj;
