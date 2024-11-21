@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Filters from "../filters/filters";
 import ShopHeader from "../shopHeader/shopHeader";
 import { genres } from "../../scripts/shop";
-import Products from "../products";
+import Products from "../products/products";
 import styles from "./shop.module.scss";
 
 function Shop() {

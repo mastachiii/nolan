@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
-import ProductCard from "./productCard/productCard";
+import ProductCard from "../productCard/productCard";
+import style from "./products.module.scss";
 
 function Products({ items, genreFilter, searchFilter }) {
     let itemsToShow = items;
@@ -8,7 +8,11 @@ function Products({ items, genreFilter, searchFilter }) {
     if (genreFilter) itemsToShow = itemsToShow.filter((i) => i.genres.includes(genreFilter));
     itemsToShow = itemsToShow.filter((i) => i.title.toUpperCase().includes(searchFilter.toUpperCase()));
 
-    return <ul>{itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}</ul>;
+    return (
+        <div className={style.products}>
+            {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
+        </div>
+    );
 }
 
 Products.propTypes = {
