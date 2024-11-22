@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styles from "./productCard.module.scss";
 
 function ProductCard({ title, id, details }) {
-    console.log(details);
     return (
         <div className={styles.card}>
             <Link to={`${id}`} state={details}>
