@@ -12,16 +12,22 @@ function Shop() {
     const [genre, setGenre] = useState(null);
     const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
-    const handleGenre = (genre) => () => setGenre(genre);
+    const handleGenre = (genre) => () => {
+        setGenre(genre);
+        handlePageReset();
+    };
     const handleSearch = (e) => setSearch(e.target.value);
     const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
-    const handleNextPage = () => (currentPage < Math.floor(items.length / 20) ? setCurrentPage((p) => p + 1) : null);
+    // Need to filter items with current genre to dynamically change the page count with each genre change
+    const handleNextPage = () =>
+        currentPage < Math.floor(items.filter((a) => (genre ? a.genres.includes(genre) : a)).length / 20) ? setCurrentPage((p) => p + 1) : null;
+    const handlePageReset = () => setCurrentPage(0);
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
     }, []);
 
-    console.log(currentPage);
+    // TODO: Need to Reset Current Page when filtering genres / search.
 
     return (
         <>
