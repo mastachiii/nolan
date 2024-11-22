@@ -3,14 +3,14 @@ import ProductCard from "../productCard/productCard";
 import style from "./products.module.scss";
 
 function Products({ items, currentPage, genreFilter, searchFilter }) {
-    // If filter is false, show entire list else run the filter check.
-
-    console.log(currentPage);
-    //REAFCTOR
-    let itemsToShow = items.filter((a, b) => b >= currentPage * 10 && b < (currentPage + 1) * 10);
+    let itemsToShow = items;
+    // Show items based on current page X the number of items you want to display on a page, second parameter keeps our itemsToShow inbounds.
 
     if (genreFilter) itemsToShow = itemsToShow.filter((i) => i.genres.includes(genreFilter));
+
     itemsToShow = itemsToShow.filter((i) => i.title.toUpperCase().includes(searchFilter.toUpperCase()));
+
+    itemsToShow = itemsToShow.filter((a, b) => b >= currentPage * 20 && b < (currentPage + 1) * 20);
 
     return (
         <div className={style.products}>
@@ -21,6 +21,7 @@ function Products({ items, currentPage, genreFilter, searchFilter }) {
 
 Products.propTypes = {
     items: PropTypes.array,
+    currentPage: PropTypes.number,
     genreFilter: PropTypes.string,
     searchFilter: PropTypes.string,
 };

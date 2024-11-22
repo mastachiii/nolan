@@ -14,9 +14,8 @@ function Shop() {
     const [currentPage, setCurrentPage] = useState(0);
     const handleGenre = (genre) => () => setGenre(genre);
     const handleSearch = (e) => setSearch(e.target.value);
-    //REFACTOR
-    const handlePrevPage = () => (currentPage >= 0 ? setCurrentPage((p) => p - 1) : null);
-    const handleNextPage = () => (currentPage <= Math.round(items.length / 10) ? setCurrentPage((p) => p + 1) : null);
+    const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
+    const handleNextPage = () => (currentPage < Math.floor(items.length / 20) ? setCurrentPage((p) => p + 1) : null);
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
