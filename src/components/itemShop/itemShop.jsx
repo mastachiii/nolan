@@ -10,7 +10,7 @@ function ItemShop() {
     return (
         <>
             <ShopHeader />
-            <main>
+            <main className={styles.itemContainer}>
                 <section className={styles.backdrop}>
                     <img src={data.backdrops[0]} alt="backdrop" />
                 </section>
@@ -18,11 +18,18 @@ function ItemShop() {
                     <div className={styles.poster}>
                         <img src={data.poster} alt="" />
                     </div>
-                    <p>{data.title}</p>
-                    <p>{data.directors.join(", ")}</p>
-                    <p>{data.actors.join(", ")}</p>
-                    <p>{data.description}</p>
-                    <div>
+                    <div className={styles.text}>
+                        <h3>{data.title}</h3>
+                        <p>
+                            <em>Directed by: {data.directors.join(", ")}</em>
+                        </p>
+                        <p>
+                            <em>Starring: {data.actors.join(", ")}</em>{" "}
+                        </p>
+                        <p>{data.description}</p>
+                    </div>
+                    <div className={styles.pricing}>
+                        <p>${data.price}</p>
                         <button
                             onClick={() => {
                                 updateCart({ title: data.title, price: data.price }, "ADD");
@@ -30,8 +37,6 @@ function ItemShop() {
                         >
                             Add To Cart
                         </button>
-                        <Link to="/shop">GO BACK</Link>
-                        <Link to="/shop/cart">GO TO CART</Link>
                     </div>
                 </section>
             </main>
