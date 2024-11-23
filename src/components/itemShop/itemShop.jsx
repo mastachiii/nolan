@@ -4,7 +4,7 @@ import { updateCart } from "../../scripts/shop";
 
 function ItemShop() {
     const data = useLocation().state;
-
+    
     return (
         <div>
             <p>{data.title}</p>
