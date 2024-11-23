@@ -10,7 +10,8 @@
 
 @media (max-width: 1000px) {
     .shop {
-        section {
+        margin: 0 0 10rem 0;
+        > section {
             flex-direction: column;
         }
     }
