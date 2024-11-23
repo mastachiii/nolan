@@ -2,19 +2,31 @@ import PropTypes from "prop-types";
 import ProductCard from "../productCard/productCard";
 import style from "./products.module.scss";
 
-function Products({ items, currentPage, genreFilter, searchFilter }) {
-    let itemsToShow = items;
+function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }) {
+    let itemsFiltered = items.filter((i) => i.title.includes(searchFilter));
+    itemsFiltered = genreFilter ? itemsFiltered.filter((i) => i.genres.includes(genreFilter)) : itemsFiltered;
+    const itemsPerPage = 20;
+    const maxPages = Math.round(itemsFiltered.length / itemsPerPage) - 1;
 
-    if (genreFilter) itemsToShow = itemsToShow.filter((i) => i.genres.includes(genreFilter));
-
-    itemsToShow = itemsToShow.filter((i) => i.title.toUpperCase().includes(searchFilter.toUpperCase()));
     // Show items based on current page X the number of items you want to display on a page, second parameter keeps our itemsToShow inbounds.
-    itemsToShow = itemsToShow.filter((a, b) => b >= currentPage * 20 && b < (currentPage + 1) * 20);
+    const itemsToShow = itemsFiltered.filter((a, b) => b >= currentPage * itemsPerPage && b < (currentPage + 1) * itemsPerPage);
+
+    function handleNextPage() {
+        if (currentPage < maxPages) pageHandler((p) => p + 1);
+    }
+
+    function handlePrevPage() {
+        pageHandler((p) => p - 1);
+    }
 
     return (
-        <div className={style.products}>
-            {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
-        </div>
+        <>
+            <div className={style.products}>
+                {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
+            </div>
+            <button onClick={handlePrevPage}>PREV</button>
+            <button onClick={handleNextPage}>NEXT</button>
+        </>
     );
 }
 

@@ -20,18 +20,13 @@ function Shop() {
         setSearch(e.target.value);
         setCurrentPage(0);
     };
-    const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
+    // const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
 
-    function handleNextPage() {
-        let itemsFiltered = items.filter((i) => i.title.includes(search));
-        itemsFiltered = genre ? itemsFiltered.filter((i) => i.genres.includes(genre)) : itemsFiltered;
+    // function handleNextPage() {
+    //     const maxPages = Math.round(itemsFiltered.length / 20) - 1;
 
-        const maxPages = Math.round(itemsFiltered.length / 20) - 1;
-
-        console.log({ maxPages });
-
-        if (currentPage < maxPages) setCurrentPage((p) => p + 1);
-    }
+    //     if (currentPage < maxPages) setCurrentPage((p) => p + 1);
+    // }
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
@@ -45,10 +40,8 @@ function Shop() {
                 <ShopHeader />
                 <section>
                     <Filters genres={genres} genreHandler={handleGenre} search={search} searchHandler={handleSearch} currentGenre={genre} />
-                    <Products items={items} currentPage={currentPage} genreFilter={genre} searchFilter={search} />
+                    <Products items={items} currentPage={currentPage} genreFilter={genre} searchFilter={search} pageHandler={setCurrentPage} />
                 </section>
-                <button onClick={handlePrevPage}>PREV</button>
-                <button onClick={handleNextPage}>NEXT</button>
             </main>
             <Footer />
         </>
