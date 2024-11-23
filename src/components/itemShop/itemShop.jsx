@@ -22,17 +22,18 @@ function ItemShop() {
                     <p>{data.directors.join(", ")}</p>
                     <p>{data.actors.join(", ")}</p>
                     <p>{data.description}</p>
-                    <div>buying stuff</div>
+                    <div>
+                        <button
+                            onClick={() => {
+                                updateCart({ title: data.title, price: data.price }, "ADD");
+                            }}
+                        >
+                            Add To Cart
+                        </button>
+                        <Link to="/shop">GO BACK</Link>
+                        <Link to="/shop/cart">GO TO CART</Link>
+                    </div>
                 </section>
-                <button
-                    onClick={() => {
-                        updateCart({ title: data.title, price: data.price }, "ADD");
-                    }}
-                >
-                    Add To Cart
-                </button>
-                <Link to="/shop">GO BACK</Link>
-                <Link to="/shop/cart">GO TO CART</Link>
             </main>
         </>
     );
