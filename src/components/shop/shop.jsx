@@ -16,10 +16,10 @@ function Shop() {
     const handleGenre = (genre) => () => {
         setGenre(genre);
         setCurrentPage(0);
-        productAnimate()
+        productAnimate();
     };
     const handleSearch = (e) => {
-        setSearch(e.target.value);
+        setSearch(e.target.value.toString());
         setCurrentPage(0);
     };
 

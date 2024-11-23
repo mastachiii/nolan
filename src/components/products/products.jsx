@@ -4,7 +4,7 @@ import style from "./products.module.scss";
 import { productAnimate } from "../../scripts/animations";
 
 function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }) {
-    let itemsFiltered = items.filter((i) => i.title.includes(searchFilter));
+    let itemsFiltered = items.filter((i) => i.title.toLowerCase().includes(searchFilter.toLowerCase()));
     itemsFiltered = genreFilter ? itemsFiltered.filter((i) => i.genres.includes(genreFilter)) : itemsFiltered;
     const itemsPerPage = 20;
     const maxPages = Math.ceil(itemsFiltered.length / itemsPerPage) - 1;

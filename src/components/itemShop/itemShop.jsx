@@ -3,10 +3,11 @@ import { useLocation, Link } from "react-router-dom";
 import { updateCart } from "../../scripts/shop";
 import ShopHeader from "../shopHeader/shopHeader";
 import styles from "./ItemShop.module.scss";
+import Footer from "../footer/footer";
 
 function ItemShop() {
     const data = useLocation().state;
-    console.log(data);
+
     return (
         <>
             <ShopHeader />
@@ -40,6 +41,7 @@ function ItemShop() {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     );
 }
