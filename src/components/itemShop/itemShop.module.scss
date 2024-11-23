@@ -1,0 +1,26 @@
+@import "../../main.scss";
+
+.backdrop {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: -1;
+
+    img {
+        width: 70%;
+    }
+}
+
+.details {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10rem auto;
+}
+
+.poster {
+    width: 10%;
+    
+    img {
+        width: 100%;
+    }
+}
