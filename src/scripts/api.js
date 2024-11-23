@@ -13,6 +13,8 @@ const options = {
 async function makeMovieObj(id) {
     const urlDetails = `https://api.themoviedb.org/3/movie/${id}`;
     const urlImages = `https://api.themoviedb.org/3/movie/${id}/images?include_image_language=null`;
+    const foo = `https://api.themoviedb.org/3/movie/${id}/credits`;
+
     const obj = {
         id: "",
         title: "",
@@ -21,11 +23,13 @@ async function makeMovieObj(id) {
         description: "",
         genres: [],
         backdrops: [],
+        directors: [],
+        actors: [],
     };
 
     // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
-        console.log(r)
+        console.log(r);
         obj.id = r.data.id;
         obj.title = r.data.title;
         obj.price = Math.floor(Math.random() * 50);
@@ -44,6 +48,14 @@ async function makeMovieObj(id) {
         backdrops.forEach((item) => {
             obj.backdrops.push("https://image.tmdb.org/t/p/original" + item.file_path);
         });
+    });
+
+    await axios.get(foo, options).then((r) => {
+        const actors = r.data.cast.filter((a, b) => b < 3);
+        const directors = r.data.crew.filter((a) => a.job === "Director");
+
+        actors.forEach((a) => obj.actors.push(a.name));
+        directors.forEach((a) => obj.directors.push(a.name));
     });
 
     return obj;
@@ -81,4 +93,4 @@ async function bar() {
     );
 }
 
-export default makeMovieObj;
+export default foo;

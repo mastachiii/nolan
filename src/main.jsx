@@ -4,8 +4,8 @@ import { RouterProvider } from "react-router-dom";
 import route from "./routes/route";
 import "./main.scss";
 import makeMovieObj from "./scripts/api";
+import foo from "./scripts/api";
 
-makeMovieObj('807')
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
