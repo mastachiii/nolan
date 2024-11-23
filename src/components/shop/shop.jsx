@@ -6,6 +6,7 @@ import { genres } from "../../scripts/shop";
 import Products from "../products/products";
 import styles from "./shop.module.scss";
 import Footer from "../footer/footer";
+import { productAnimate } from "../../scripts/animations";
 
 function Shop() {
     const [items, setItems] = useState([]);
@@ -15,6 +16,7 @@ function Shop() {
     const handleGenre = (genre) => () => {
         setGenre(genre);
         setCurrentPage(0);
+        productAnimate()
     };
     const handleSearch = (e) => {
         setSearch(e.target.value);

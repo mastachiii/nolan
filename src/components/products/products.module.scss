@@ -16,13 +16,24 @@
 }
 
 .pageButtons {
-    background: none;
-    border: none;
     height: fit-content;
+    padding: 1rem;
+    border: none;
+    background: none;
 
     img {
         width: 30px;
         margin: 30rem 0 0 0;
+        transition: transform 100ms ease-in;
+    }
+
+    &:hover {
+        img {
+            border: solid 1px $primary-color;
+            border-radius: 2rem;
+            background-color: $primary-color;
+            transform: scale(1.2);
+        }
     }
 }
 

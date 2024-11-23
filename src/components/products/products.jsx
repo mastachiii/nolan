@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import ProductCard from "../productCard/productCard";
 import style from "./products.module.scss";
+import { productAnimate } from "../../scripts/animations";
 
 function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }) {
     let itemsFiltered = items.filter((i) => i.title.includes(searchFilter));
@@ -12,11 +13,17 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
     const itemsToShow = itemsFiltered.filter((a, b) => b >= currentPage * itemsPerPage && b < (currentPage + 1) * itemsPerPage);
 
     function handleNextPage() {
-        if (currentPage < maxPages) pageHandler((p) => p + 1);
+        if (currentPage < maxPages) {
+            pageHandler((p) => p + 1);
+            productAnimate(style.products);
+        }
     }
 
     function handlePrevPage() {
-        if (currentPage > 0) pageHandler((p) => p - 1);
+        if (currentPage > 0) {
+            pageHandler((p) => p - 1);
+            productAnimate();
+        }
     }
 
     return (
@@ -28,7 +35,7 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
                 <button onClick={handlePrevPage} className={style.pageButtons}>
                     <img src="/arrowPrev.svg" alt="" />
                 </button>
-                <div className={style.products}>
+                <div className={style.products} id="products">
                     {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
                 </div>
                 <button onClick={handleNextPage} className={`${style.pageButtons} ${style.nextButton}`}>
