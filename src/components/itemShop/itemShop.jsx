@@ -4,10 +4,11 @@ import { updateCart } from "../../scripts/shop";
 import ShopHeader from "../shopHeader/shopHeader";
 import styles from "./ItemShop.module.scss";
 import Footer from "../footer/footer";
+import { useEffect } from "react";
 
 function ItemShop() {
     const data = useLocation().state;
-
+    
     return (
         <>
             <ShopHeader />
