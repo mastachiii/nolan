@@ -20,16 +20,22 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
     }
 
     return (
-        <>
-            <p>
+        <div className={style.container}>
+            <p className={style.pageCount}>
                 Page {currentPage + 1} out of {maxPages + 1}
             </p>
-            <button onClick={handlePrevPage}>PREV</button>
-            <div className={style.products}>
-                {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
-            </div>
-            <button onClick={handleNextPage}>NEXT</button>
-        </>
+            <section>
+                <button onClick={handlePrevPage} className={style.pageButtons}>
+                    <img src="/arrowPrev.svg" alt="" />
+                </button>
+                <div className={style.products}>
+                    {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
+                </div>
+                <button onClick={handleNextPage} className={`${style.pageButtons} ${style.nextButton}`}>
+                    <img src="/arrowNext.svg" alt="" />
+                </button>
+            </section>
+        </div>
     );
 }
 
