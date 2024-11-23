@@ -20,19 +20,10 @@ function Shop() {
         setSearch(e.target.value);
         setCurrentPage(0);
     };
-    // const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
-
-    // function handleNextPage() {
-    //     const maxPages = Math.round(itemsFiltered.length / 20) - 1;
-
-    //     if (currentPage < maxPages) setCurrentPage((p) => p + 1);
-    // }
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
     }, []);
-
-    // TODO: Need to Reset Current Page when filtering genres / search.
 
     return (
         <>
