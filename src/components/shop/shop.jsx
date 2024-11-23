@@ -12,10 +12,26 @@ function Shop() {
     const [genre, setGenre] = useState(null);
     const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
-    const handleGenre = (genre) => () => setGenre(genre);
-    const handleSearch = (e) => setSearch(e.target.value);
+    const handleGenre = (genre) => () => {
+        setGenre(genre);
+        setCurrentPage(0);
+    };
+    const handleSearch = (e) => {
+        setSearch(e.target.value);
+        setCurrentPage(0);
+    };
     const handlePrevPage = () => (currentPage > 0 ? setCurrentPage((p) => p - 1) : null);
-    const handleNextPage = () => (currentPage < Math.floor(items.length / 20) ? setCurrentPage((p) => p + 1) : null);
+
+    function handleNextPage() {
+        let itemsFiltered = items.filter((i) => i.title.includes(search));
+        itemsFiltered = genre ? itemsFiltered.filter((i) => i.genres.includes(genre)) : itemsFiltered;
+
+        const maxPages = Math.round(itemsFiltered.length / 20) - 1;
+
+        console.log({ maxPages });
+
+        if (currentPage < maxPages) setCurrentPage((p) => p + 1);
+    }
 
     useEffect(() => {
         getProducts().then((response) => setItems(response.items));
