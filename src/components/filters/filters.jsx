@@ -16,7 +16,7 @@ function Filters({ currentGenre, genres, genreHandler, search, searchHandler }) 
                 </span>
                 {genres.map((g) => (
                     <span key={g}>
-                        <Link to="?page=0">
+                        <Link to={`?page=0&genre=${g}`}>
                             <button onClick={genreHandler(g)} className={currentGenre === g ? styles.active : undefined}></button>
                         </Link>
                         <p>{g}</p>

@@ -40,7 +40,7 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
                 Page {currentPage + 1} out of {maxPages + 1}
             </p>
             <section>
-                <Link to={`?page=${prevPage}`}>
+                <Link to={`?page=${prevPage}&genre=${genreFilter}`}>
                     {" "}
                     <button onClick={handlePrevPage} className={style.pageButtons}>
                         <img src="/arrowPrev.svg" alt="" />
@@ -49,7 +49,7 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
                 <div className={style.products} id="products">
                     {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
                 </div>
-                <Link to={`?page=${nextPage}`}>
+                <Link to={`?page=${nextPage}&genre=${genreFilter}`}>
                     <button onClick={handleNextPage} className={`${style.pageButtons} ${style.nextButton}`}>
                         <img src="/arrowNext.svg" alt="" />
                     </button>

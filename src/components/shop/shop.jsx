@@ -10,12 +10,11 @@ import { productAnimate } from "../../scripts/animations";
 import { useLocation, useSearchParams } from "react-router-dom";
 
 function Shop() {
-    const [items, setItems] = useState([]);
-    const [genre, setGenre] = useState(null);
-    const [search, setSearch] = useState("");
     const query = useSearchParams();
+    const [items, setItems] = useState([]);
+    const [genre, setGenre] = useState(query[0].get("genre"));
+    const [search, setSearch] = useState("");
     const [currentPage, setCurrentPage] = useState(+query[0].get("page"));
-    console.log(query[0].get("page"));
     const handleGenre = (genre) => () => {
         setGenre(genre);
         setCurrentPage(0);
