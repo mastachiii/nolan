@@ -18,12 +18,14 @@ function ItemShop() {
             setData(newData);
         });
     } else {
+        const randomBackdrop = data.backdrops[Math.floor(Math.random() * data.backdrops.length)];
+
         return (
             <>
                 <ShopHeader />
                 <main className={styles.itemContainer}>
                     <section className={styles.backdrop}>
-                        <img src={data.backdrops[0]} alt="backdrop" />
+                        <img src={randomBackdrop} alt="backdrop" />
                     </section>
                     <section className={styles.details}>
                         <div className={styles.poster}>
