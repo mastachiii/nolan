@@ -13,16 +13,18 @@ function Shop() {
     const query = useSearchParams();
     const [items, setItems] = useState([]);
     const [genre, setGenre] = useState(query[0].get("genre"));
-    const [search, setSearch] = useState("");
-    const [currentPage, setCurrentPage] = useState(+query[0].get("page"));
+    const [search, setSearch] = useState(query[0].get("search") || '');
+    const [currentPage, setCurrentPage] = useState(+query[0].get("page") || 0);
     const handleGenre = (genre) => () => {
         setGenre(genre);
         setCurrentPage(0);
         productAnimate();
     };
-    const handleSearch = (e) => {
-        setSearch(e.target.value.toString());
-        setCurrentPage(0);
+    const handleSearch = (search) => {
+        return () => {
+            setSearch(search);
+            setCurrentPage(0);
+        };
     };
 
     useEffect(() => {

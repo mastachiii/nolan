@@ -9,17 +9,15 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
     itemsFiltered = genreFilter ? itemsFiltered.filter((i) => i.genres.includes(genreFilter)) : itemsFiltered;
     const itemsPerPage = 20;
     const maxPages = Math.ceil(itemsFiltered.length / itemsPerPage) - 1;
-    let prevPage;
-    let nextPage;
-
     // For page routing.
-    prevPage = currentPage > 0 ? currentPage - 1 : 0;
-    nextPage = currentPage < maxPages ? currentPage + 1 : maxPages;
+    let prevPage = currentPage > 0 ? currentPage - 1 : 0;
+    let nextPage = currentPage < maxPages ? currentPage + 1 : maxPages;
 
     // Show items based on current page X the number of items you want to display on a page, second parameter keeps our itemsToShow inbounds.
     const itemsToShow = itemsFiltered.filter((a, b) => b >= currentPage * itemsPerPage && b < (currentPage + 1) * itemsPerPage);
 
     function handleNextPage() {
+        console.log(genreFilter);
         if (currentPage < maxPages) {
             pageHandler((p) => p + 1);
             productAnimate(style.products);
@@ -40,7 +38,7 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
                 Page {currentPage + 1} out of {maxPages + 1}
             </p>
             <section>
-                <Link to={`?page=${prevPage}&genre=${genreFilter}`}>
+                <Link to={`?page=${prevPage}&genre=${genreFilter ? genreFilter : ""}&search=${searchFilter}`}>
                     {" "}
                     <button onClick={handlePrevPage} className={style.pageButtons}>
                         <img src="/arrowPrev.svg" alt="" />
@@ -49,7 +47,7 @@ function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }
                 <div className={style.products} id="products">
                     {itemsToShow && itemsToShow.map((a, b) => <ProductCard title={a.title} id={a.id} details={itemsToShow[b]} key={a.title} />)}
                 </div>
-                <Link to={`?page=${nextPage}&genre=${genreFilter}`}>
+                <Link to={`?page=${nextPage}&genre=${genreFilter ? genreFilter : ""}&search=${searchFilter}`}>
                     <button onClick={handleNextPage} className={`${style.pageButtons} ${style.nextButton}`}>
                         <img src="/arrowNext.svg" alt="" />
                     </button>
