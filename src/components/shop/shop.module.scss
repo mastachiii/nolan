@@ -2,6 +2,7 @@
 
 .shop {
     margin: 0 0 20rem 0;
+    animation: pop-out 300ms ease 1 forwards;
 
     section {
         display: flex;
