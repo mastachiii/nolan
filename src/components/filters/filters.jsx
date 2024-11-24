@@ -13,23 +13,25 @@ function Filters({ currentGenre, genres, genreHandler, search, searchHandler }) 
     return (
         <div className={styles.filter}>
             <h4>FILTER: </h4>
-            <input type="text" value={searchVal} onChange={handleSearch} placeholder="Title" />
-            <Link to={`?page=0&genre=''&search=${searchVal}`}>
-                <button onClick={searchHandler(searchVal)}>SEARCH</button>
+            <Link to={`?page=0&genre=''&search=${searchVal}`} className={styles.searchField}>
+                <input type="text" value={searchVal} onChange={handleSearch} placeholder="Title" />
+                <button onClick={searchHandler(searchVal)}>
+                    <img src="/search.svg" alt="" />
+                </button>
             </Link>
             <div>
                 <span>
-                    <Link to={`?page=0&genre=''&search=${search}`}>
+                    <Link to={`?page=0&genre=''&search=${search}`} className={styles.genreFilter}>
                         <button type="check" onClick={genreHandler(null)} className={!currentGenre ? styles.active : undefined}></button>
+                        <p>All</p>
                     </Link>
-                    <p>All</p>
                 </span>
                 {genres.map((g) => (
                     <span key={g}>
-                        <Link to={`?page=0&genre=${g}&search=${search}`}>
+                        <Link to={`?page=0&genre=${g}&search=${search}`} className={styles.genreFilter}>
                             <button onClick={genreHandler(g)} className={currentGenre === g ? styles.active : undefined}></button>
+                            <p>{g}</p>
                         </Link>
-                        <p>{g}</p>
                     </span>
                 ))}
             </div>

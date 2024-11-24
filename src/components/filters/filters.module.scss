@@ -50,6 +50,49 @@
     }
 }
 
+.searchField {
+    display: flex;
+    margin: 0 auto;
+
+    input {
+        width: 80%;
+    }
+
+    button {
+        width: 20%;
+        height: 10%;
+        padding: 8px;
+        text-align: center;
+        font-size: calc(8rem / 16);
+        background: none;
+        border: none;
+        margin: 0;
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.genreFilter {
+    display: flex;
+    // gap: 10px;
+    text-decoration: none;
+    pointer-events: none;
+
+    button {
+        pointer-events: all;
+        cursor: pointer;
+    }
+
+    p {
+        font-family: Helvetica;
+        font-size: calc(14rem / 16);
+        font-weight: 500;
+        color: $primary-color-3;
+    }
+}
+
 @media (max-width: 1000px) {
     .filter {
         width: 100%;
