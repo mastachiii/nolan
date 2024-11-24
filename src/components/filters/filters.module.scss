@@ -54,13 +54,15 @@
     display: flex;
     margin: 0 auto;
     pointer-events: none;
+    padding: calc(10rem / 16);
 
     input {
         width: 80%;
+        pointer-events: all;
     }
 
     button {
-        width: 10%;
+        width: 15%;
         height: 10%;
         margin: 0 0 8px 2px;
         align-self: center;
