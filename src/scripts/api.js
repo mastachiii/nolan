@@ -29,10 +29,9 @@ async function makeMovieObj(id) {
 
     // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
-        console.log(r);
         obj.id = r.data.id;
         obj.title = r.data.title;
-        obj.price = Math.floor(Math.random() * 50);
+        obj.price = (Math.random() * 50).toFixed(2);
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
         obj.description = r.data.overview;
 
@@ -79,6 +78,7 @@ async function foo() {
     response.items = final;
 
     axios.put("http://localhost:3001/products", response);
+    console.log('DONE')
 }
 
 async function bar() {
