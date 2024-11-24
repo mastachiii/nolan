@@ -6,10 +6,12 @@ import styles from "./ItemShop.module.scss";
 import Footer from "../footer/footer";
 import { useEffect, useState } from "react";
 import { getProducts } from "../../scripts/shop";
+import Spinner from "../spinner/spinner";
 
 function ItemShop() {
     const movieId = useParams().movieId;
     const [data, setData] = useState(useLocation().state);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     // If user opens product using a new tab, fetch product details else use state passed through Link.
     if (!data) {
@@ -17,6 +19,10 @@ function ItemShop() {
             const newData = r.items.find((a) => a.id == movieId);
             setData(newData);
         });
+    }
+
+    if (!isLoaded) {
+        return <Spinner />;
     } else {
         const randomBackdrop = data.backdrops[Math.floor(Math.random() * data.backdrops.length)];
 
