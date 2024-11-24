@@ -3,6 +3,7 @@ import ProductCard from "../productCard/productCard";
 import style from "./products.module.scss";
 import { productAnimate } from "../../scripts/animations";
 import { Link } from "react-router-dom";
+import Spinner from "../spinner/spinner";
 
 function Products({ items, currentPage, genreFilter, searchFilter, pageHandler }) {
     let itemsFiltered = items.filter((i) => i.title.toLowerCase().includes(searchFilter.toLowerCase()));

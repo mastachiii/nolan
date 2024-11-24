@@ -24,7 +24,7 @@ function ItemShop() {
     useEffect(() => {
         setTimeout(() => {
             setIsLoaded(true);
-        }, 2000);
+        }, 800);
     }, []);
 
     const randomBackdrop = data.backdrops[Math.floor(Math.random() * data.backdrops.length)];
