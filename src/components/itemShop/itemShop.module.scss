@@ -84,9 +84,7 @@
         display: flex;
         flex-direction: column;
         align-self: center;
-        // margin: auto 3rem 6rem auto;
         gap: 1rem;
-        // padding: 3rem;
 
         p {
             font-size: calc(33rem / 16);
@@ -96,7 +94,6 @@
         button {
             width: 80%;
             padding: calc(12rem / 16) 1rem;
-            // margin: 0 auto;
             font-size: calc(10rem / 16);
             border: solid 1px $primary-color-3;
             background-color: $primary-color-2;
@@ -106,6 +103,62 @@
             &:hover {
                 background-color: $primary-color;
                 color: $primary-color-2;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .backdrop {
+        img {
+            width: 100%;
+        }
+    }
+
+    .details {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 10rem;
+
+        .poster {
+            width: 40%;
+            bottom: 2rem;
+            margin: 0 auto;
+        }
+
+        .text {
+            width: 100%;
+            margin: 0;
+
+            h3 {
+                font-size: calc(25rem / 16);
+            }
+
+            > p {
+                width: 100%;
+                text-wrap: wrap;
+                font-size: calc(9rem / 16);
+            }
+
+            > p:nth-of-type(3) {
+                font-size: calc(12rem / 16);
+            }
+        }
+
+        .pricing {
+            width: 100%;
+            margin: 1rem 0 0 0;
+            gap: 0;
+
+            p {
+                font-size: calc(20rem / 16);
+                margin: 0 0 calc(6rem / 16) 0;
+            }
+
+            button {
+                width: 20%;
+                padding: calc(6rem / 16);
+                font-size: calc(7rem / 16);
             }
         }
     }
