@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes, { node } from "prop-types";
 import { useLocation, Link, useParams } from "react-router-dom";
 import { updateCart } from "../../scripts/shop";
 import ShopHeader from "../shopHeader/shopHeader";
@@ -21,15 +21,25 @@ function ItemShop() {
         });
     }
 
-    if (!isLoaded) {
-        return <Spinner />;
-    } else {
-        const randomBackdrop = data.backdrops[Math.floor(Math.random() * data.backdrops.length)];
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoaded(true);
+        }, 2000);
+    }, []);
 
+    const randomBackdrop = data.backdrops[Math.floor(Math.random() * data.backdrops.length)];
+
+    if (!isLoaded) {
+        return (
+            <div style={{ display: isLoaded ? "none" : "block" }}>
+                <Spinner />
+            </div>
+        );
+    } else {
         return (
             <>
                 <ShopHeader />
-                <main className={styles.itemContainer}>
+                <main className={styles.itemContainer} style={{ opacity: isLoaded ? "1" : "0" }}>
                     <section className={styles.backdrop}>
                         <img src={randomBackdrop} alt="backdrop" />
                     </section>
