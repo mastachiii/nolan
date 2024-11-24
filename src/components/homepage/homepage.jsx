@@ -14,7 +14,7 @@ function Homepage() {
                     <section>
                         <p>Cinema at its finest.</p>
                         <div>
-                            <Link to="shop">SHOP NOW</Link>
+                            <Link to="shop?page=0">SHOP NOW</Link>
                         </div>
                     </section>
                     <img src="/nolan-murphy.jpg" alt="" />

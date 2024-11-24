@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import styles from "./filters.module.scss";
+import { Link } from "react-router-dom";
 
 function Filters({ currentGenre, genres, genreHandler, search, searchHandler }) {
     return (
@@ -8,12 +9,16 @@ function Filters({ currentGenre, genres, genreHandler, search, searchHandler }) 
             <input type="text" value={search} onChange={searchHandler} placeholder="Title" />
             <div>
                 <span>
-                    <button type="check" onClick={genreHandler(null)} className={currentGenre === null ? styles.active : undefined}></button>
+                    <Link to="?page=0">
+                        <button type="check" onClick={genreHandler(null)} className={currentGenre === null ? styles.active : undefined}></button>
+                    </Link>
                     <p>All</p>
                 </span>
                 {genres.map((g) => (
                     <span key={g}>
-                        <button onClick={genreHandler(g)} className={currentGenre === g ? styles.active : undefined}></button>
+                        <Link to="?page=0">
+                            <button onClick={genreHandler(g)} className={currentGenre === g ? styles.active : undefined}></button>
+                        </Link>
                         <p>{g}</p>
                     </span>
                 ))}

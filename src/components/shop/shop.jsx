@@ -7,12 +7,15 @@ import Products from "../products/products";
 import styles from "./shop.module.scss";
 import Footer from "../footer/footer";
 import { productAnimate } from "../../scripts/animations";
+import { useLocation, useSearchParams } from "react-router-dom";
 
 function Shop() {
     const [items, setItems] = useState([]);
     const [genre, setGenre] = useState(null);
     const [search, setSearch] = useState("");
-    const [currentPage, setCurrentPage] = useState(0);
+    const query = useSearchParams();
+    const [currentPage, setCurrentPage] = useState(+query[0].get("page"));
+    console.log(query[0].get("page"));
     const handleGenre = (genre) => () => {
         setGenre(genre);
         setCurrentPage(0);
@@ -24,6 +27,7 @@ function Shop() {
     };
 
     useEffect(() => {
+        // console.log(currentPage);
         getProducts().then((response) => setItems(response.items));
     }, []);
 

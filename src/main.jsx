@@ -5,7 +5,6 @@ import route from "./routes/route";
 import "./main.scss";
 import foo from "./scripts/api";
 
-foo();
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>

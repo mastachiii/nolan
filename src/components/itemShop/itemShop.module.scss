@@ -53,6 +53,7 @@
     border-radius: 1rem;
 
     .text {
+        width: 50%;
         margin: 0 0 0 3rem;
         h3 {
             margin: 0 0 calc(10rem / 16) 0;
@@ -63,7 +64,7 @@
         }
 
         > p {
-            width: 20rem;
+            width: 25rem;
             font-family: "Roboto";
             font-size: calc(13rem / 16);
         }
@@ -82,17 +83,18 @@
         flex-direction: column;
         align-self: center;
         margin: auto 3rem 6rem auto;
-        gap: 2rem;
+        gap: 1rem;
         padding: 1rem;
 
         p {
-            font-size: 2rem;
+            font-size: calc(33rem / 16);
             font-family: sans-serif;
         }
 
         button {
+            // width: 10%;
             padding: calc(12rem / 16) 1rem;
-            font-size: calc(12rem / 16);
+            font-size: calc(10rem / 16);
             border: solid 1px $primary-color-3;
             background-color: $primary-color-2;
             font-family: "Roboto";

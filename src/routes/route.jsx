@@ -21,6 +21,10 @@ const route = createBrowserRouter([
         path: "shop/:movieId",
         element: <ItemShop />,
     },
+    {
+        path: "shop/page/:number",
+        element: <Shop />,
+    },
 ]);
 
 export default route;
