@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 function Filters({ currentGenre, genres, genreHandler, search, searchHandler }) {
     const [searchVal, setSearchVal] = useState(search);
     const handleSearch = (e) => {
-        console.log(searchVal);
         setSearchVal(e.target.value);
     };
 

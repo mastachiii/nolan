@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getCart } from "../../scripts/shop";
 import ItemCart from "../itemCart/itemCart";
 import ShopHeader from "../shopHeader/shopHeader";
+import Footer from "../footer/footer";
 import styles from "./cart.module.scss";
 
 function Cart() {
@@ -48,6 +49,7 @@ function Cart() {
                     BACK TO SHOP
                 </Link>
             </div>
+            <Footer />
         </div>
     );
 }

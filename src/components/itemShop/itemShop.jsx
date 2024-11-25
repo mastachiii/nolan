@@ -1,5 +1,5 @@
-import PropTypes, { node } from "prop-types";
-import { useLocation, Link, useParams } from "react-router-dom";
+import PropTypes from "prop-types";
+import { useLocation, useParams } from "react-router-dom";
 import { updateCart } from "../../scripts/shop";
 import ShopHeader from "../shopHeader/shopHeader";
 import styles from "./ItemShop.module.scss";

@@ -7,13 +7,13 @@ import Products from "../products/products";
 import styles from "./shop.module.scss";
 import Footer from "../footer/footer";
 import { productAnimate } from "../../scripts/animations";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 
 function Shop() {
     const query = useSearchParams();
     const [items, setItems] = useState([]);
     const [genre, setGenre] = useState(query[0].get("genre"));
-    const [search, setSearch] = useState(query[0].get("search") || '');
+    const [search, setSearch] = useState(query[0].get("search") || "");
     const [currentPage, setCurrentPage] = useState(+query[0].get("page") || 0);
     const handleGenre = (genre) => () => {
         setGenre(genre);
@@ -28,7 +28,6 @@ function Shop() {
     };
 
     useEffect(() => {
-        // console.log(currentPage);
         getProducts().then((response) => setItems(response.items));
     }, []);
 

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { updateCart } from "../../scripts/shop";
 import styles from "./itemCart.module.scss";
 
@@ -69,6 +69,7 @@ ItemCart.propTypes = {
     price: PropTypes.number,
     index: PropTypes.number,
     quantity: PropTypes.number,
+    poster: PropTypes.string,
     handle: PropTypes.func,
     totalPriceHandler: PropTypes.func,
 };

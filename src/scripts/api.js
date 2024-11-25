@@ -29,9 +29,10 @@ async function makeMovieObj(id) {
 
     // Two seperate fetches are required since backdrop images are not included in the first fetch.
     await axios.get(urlDetails, options).then((r) => {
+        console.log(r);
         obj.id = r.data.id;
         obj.title = r.data.title;
-        obj.price = (Math.random() * 50).toFixed(2);
+        obj.price = Math.floor(Math.random() * 50);
         obj.poster = "https://image.tmdb.org/t/p/original" + r.data.poster_path;
         obj.description = r.data.overview;
 
@@ -60,9 +61,7 @@ async function makeMovieObj(id) {
     return obj;
 }
 
-// DELETE LATER
-// might need when i want to reupdate product listing.
-async function foo() {
+async function updateApiProducts() {
     let list;
     let response;
     let final = [];
@@ -78,19 +77,6 @@ async function foo() {
     response.items = final;
 
     axios.put("http://localhost:3001/products", response);
-    console.log('DONE')
 }
 
-async function bar() {
-    const url = "https://api.themoviedb.org/3/genre/movie/list?language=en";
-    axios.get(url, options).then((r) =>
-        console.log(
-            r.data.genres
-                .filter((g) => g.name !== "Documentary" && g.name !== "TV Movie")
-                .map((g) => `'${g.name}'`)
-                .toString("")
-        )
-    );
-}
-
-export default foo;
+export default updateApiProducts;
