@@ -7,7 +7,7 @@ import Footer from "../footer/footer";
 import styles from "./cart.module.scss";
 
 function Cart() {
-    const [cart, setCart] = useState(null);
+    const [cart, setCart] = useState([]);
     const [totalPrice, setTotalPrice] = useState(null);
 
     useEffect(() => {
@@ -26,7 +26,9 @@ function Cart() {
         <div>
             <ShopHeader />
             <ul className={styles.cart}>
-                {cart &&
+                {cart.length <= 0 ? (
+                    <p className={styles.empty}>YOUR CART IS EMPTY.</p>
+                ) : (
                     cart.map((a) => (
                         <ItemCart
                             title={a.title}
@@ -37,12 +39,13 @@ function Cart() {
                             price={a.price}
                             totalPriceHandler={setTotalPrice}
                         />
-                    ))}
+                    ))
+                )}
             </ul>
             <div className={styles.subTotal}>
                 <span>
                     <p>SUBTOTAL:</p>
-                    <p>${totalPrice ? totalPrice.toFixed(2) : 0} </p>
+                    <p>${totalPrice > 0 ? totalPrice.toFixed(2) : 0} </p>
                 </span>
                 <button>CHECKOUT</button>
                 <Link to="/shop" className={styles.link}>

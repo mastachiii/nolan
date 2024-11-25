@@ -1,5 +1,13 @@
 @import "../../main.scss";
 
+.empty {
+    align-self: center;
+    margin: 10rem 0;
+    font-size: calc(35rem / 16);
+    font-family: sans-serif;
+    letter-spacing: 10px;
+}
+
 .cart {
     display: flex;
     flex-direction: column;
