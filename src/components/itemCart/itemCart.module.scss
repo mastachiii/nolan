@@ -7,6 +7,8 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     margin: 0 0 0 5rem;
+    padding: 1rem;
+    border-bottom: solid 1px $primary-color-3;
 
     div {
         display: flex;
@@ -45,14 +47,14 @@
             margin: auto 0;
         }
         p {
-            margin:0 1rem;
+            margin: 0 1rem;
         }
 
         button {
             width: 5%;
             background: none;
             border: none;
-            
+
             img {
                 width: 100%;
             }
@@ -66,11 +68,17 @@
         align-self: center;
         margin-top: 2rem;
         background: none;
-        border: solid 1px $primary-color-3  ;
-        font-family: 'Roboto';
+        border: solid 1px $primary-color-3;
+        font-family: "Roboto";
 
         p {
             font-size: calc(12rem / 16);
         }
+    }
+}
+
+.subTotal {
+    p {
+        font-weight: bold;
     }
 }

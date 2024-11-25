@@ -38,8 +38,11 @@ function Cart() {
                         />
                     ))}
             </ul>
-            <div>
-                <p>SUBTOTAL: ${totalPrice ? totalPrice.toFixed(2) : 0} </p>
+            <div className={styles.subTotal}>
+                <span>
+                    <p>SUBTOTAL:</p>
+                    <p>${totalPrice ? totalPrice.toFixed(2) : 0} </p>
+                </span>
                 <button>CHECKOUT</button>
             </div>
             <Link to="/shop">BACK TO SHOP</Link>
