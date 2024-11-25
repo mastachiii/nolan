@@ -7,10 +7,11 @@ function Cart() {
     const [cart, setCart] = useState(null);
     const [totalPrice, setTotalPrice] = useState(null);
 
+    console.log(totalPrice);
     useEffect(() => {
         getCart().then((response) => {
             setCart(response.items);
-            setTotalPrice(response.items.reduce((a, b) => (a += b.price), 0));
+            setTotalPrice(response.items.reduce((a, b) => (a += b.price * b.quantity), 0));
         });
     }, []);
 
@@ -21,7 +22,7 @@ function Cart() {
 
     return (
         <div>
-            <p>CART</p>
+            <h3>CART: </h3>
             <ul>
                 {cart &&
                     cart.map((a, b) => (
@@ -30,12 +31,13 @@ function Cart() {
                             title={a.title}
                             handle={deleteCartItem}
                             key={a.title}
+                            quantity={a.quantity}
                             price={a.price}
                             totalPriceHandler={setTotalPrice}
                         />
                     ))}
             </ul>
-            <h3>${totalPrice}</h3>
+            <h3>${totalPrice ? totalPrice.toFixed(2) : 0}</h3>
             <Link to="/shop">BACK TO SHOP</Link>
         </div>
     );

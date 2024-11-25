@@ -15,17 +15,24 @@ function getCart() {
 }
 
 // Get current cart array first then do specified method.
-async function updateCart(item, method) {
+async function updateCart({ item, method, key }) {
     let cart;
 
     await getCart().then((response) => {
         cart = response;
     });
 
-    if (method === "ADD") {
-        cart.items.find((a) => a.title === item.title) ? null : cart.items.push(item);
-    } else {
-        cart.items = cart.items.filter((a) => a.title !== item); // Adding a movie passes in an object while deleting passes in movie title
+    switch (method) {
+        case "ADD":
+            cart.items.find((a) => a.title === item.title) ? null : cart.items.push(item);
+            break;
+        case "DELETE":
+            cart.items = cart.items.filter((a) => a.title !== key);
+            break;
+        case "UPDATE": {
+            const itemIndex = cart.items.findIndex((a) => a.title === item.title);
+            cart.items[itemIndex] = item;
+        }
     }
 
     axios.put("http://localhost:3001/cart", cart);
