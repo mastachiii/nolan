@@ -2,20 +2,21 @@ import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import { updateCart } from "../scripts/shop";
 
-function ItemCart({ title, price, index, handle, totalPriceHandler }) {
-    const [quantity, setQuantity] = useState(1);
-    console.log(price);
+function ItemCart({ title, price, quantity, index, handle, totalPriceHandler }) {
+    const [currentQuantity, setCurrentQuantity] = useState(quantity);
+
     // Change total price with each quantity change.
     const addQuantity = () => {
-        if (quantity < 10) {
-            setQuantity((q) => q + 1);
+        if (currentQuantity < 10) {
+            setCurrentQuantity((q) => q + 1);
             totalPriceHandler((t) => t + price);
+            updateCart({ item: { title, price, quantity: currentQuantity + 1 }, method: "UPDATE" });
         }
     };
 
     const minusQuantity = () => {
-        if (quantity > 1) {
-            setQuantity((q) => q - 1);
+        if (currentQuantity > 1) {
+            setCurrentQuantity((q) => q - 1);
             totalPriceHandler((t) => t - +price);
         }
     };
@@ -27,14 +28,14 @@ function ItemCart({ title, price, index, handle, totalPriceHandler }) {
             <div>PRICE ${price}</div>
             <div>
                 <button onClick={minusQuantity}>-</button>
-                QUANTITY {quantity}
+                QUANTITY {currentQuantity}
                 <button onClick={addQuantity}>+</button>
             </div>
-            <div>TOTAL ${(price * quantity).toFixed(2)}</div>
+            <div>TOTAL ${(price * currentQuantity).toFixed(2)}</div>
             <button
                 onClick={() => {
-                    updateCart(title, "DELETE");
-                    handle(title, price * quantity); // Force a re-render after API Call.
+                    updateCart({ key: title, method: "DELETE" });
+                    handle(title, price * currentQuantity); // Force a re-render after API Call.
                 }}
             >
                 REMOVE

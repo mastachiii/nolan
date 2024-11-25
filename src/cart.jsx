@@ -31,6 +31,7 @@ function Cart() {
                             title={a.title}
                             handle={deleteCartItem}
                             key={a.title}
+                            quantity={a.quantity}
                             price={a.price}
                             totalPriceHandler={setTotalPrice}
                         />

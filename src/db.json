@@ -4245,7 +4245,28 @@
   },
   "cart": {
     "id": "cart",
-    "items": []
+    "items": [
+      {
+        "title": "The Godfather Part II",
+        "price": 39.53,
+        "quantity": 7
+      },
+      {
+        "title": "Parasite",
+        "price": 39.3,
+        "quantity": 10
+      },
+      {
+        "title": "Django Unchained",
+        "price": 48.92,
+        "quantity": 10
+      },
+      {
+        "title": "No Country for Old Men",
+        "price": 5.53,
+        "quantity": 1
+      }
+    ]
   },
   "list": {
     "id": "list",
