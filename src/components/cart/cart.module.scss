@@ -18,6 +18,10 @@
             display: block;
             margin-bottom: 1rem;
         }
+
+        > button {
+            margin-top: 2.5rem;
+        }
     }
 }
 
@@ -79,4 +83,15 @@
     text-decoration: none;
     color: $primary-color-3;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .cart {
+        li:first-child {
+            padding-bottom: 2rem;
+            > button {
+                margin-top: calc(40rem / 16);
+            }
+        }
+    }
 }

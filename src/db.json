@@ -4247,12 +4247,6 @@
     "id": "cart",
     "items": [
       {
-        "title": "Parasite",
-        "price": 39.3,
-        "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-        "quantity": 10
-      },
-      {
         "title": "The Godfather Part II",
         "price": 39.53,
         "quantity": 1,
