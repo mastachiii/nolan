@@ -44,8 +44,10 @@ function Cart() {
                     <p>${totalPrice ? totalPrice.toFixed(2) : 0} </p>
                 </span>
                 <button>CHECKOUT</button>
+                <Link to="/shop" className={styles.link}>
+                    BACK TO SHOP
+                </Link>
             </div>
-            <Link to="/shop">BACK TO SHOP</Link>
         </div>
     );
 }

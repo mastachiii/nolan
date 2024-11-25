@@ -4250,7 +4250,7 @@
         "title": "Parasite",
         "price": 39.3,
         "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-        "quantity": 6
+        "quantity": 10
       },
       {
         "title": "The Godfather Part II",
@@ -4263,6 +4263,18 @@
         "price": 1.08,
         "quantity": 1,
         "poster": "https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg"
+      },
+      {
+        "title": "Past Lives",
+        "price": 25.95,
+        "quantity": 1,
+        "poster": "https://image.tmdb.org/t/p/original/rzO71VFu7CpJMfF5TQNMj0d1lSV.jpg"
+      },
+      {
+        "title": "The Apartment",
+        "price": 19.83,
+        "quantity": 1,
+        "poster": "https://image.tmdb.org/t/p/original/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg"
       }
     ]
   },

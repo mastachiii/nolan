@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .cart {
     display: flex;
     flex-direction: column;
@@ -24,7 +26,8 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem;
-    margin: 2rem 3rem 0 0;
+    margin: 2rem 3rem 2rem 0;
+    font-family: sans-serif;
 
     p {
         font-weight: bold;
@@ -47,7 +50,24 @@
     }
 
     button {
-        width: 10%;
-        padding: calc(10rem / 16);
+        width: 8%;
+        padding: calc(15rem / 16);
+        margin: calc(5rem / 16) 0 0 0;
+        background: none;
+        background-color: $primary-color-3;
+        border: solid 1px $primary-color-3;
+        font-size: calc(15rem / 16);
+        color: $primary-color-2;
     }
+}
+
+.link {
+    align-self: flex-start;
+    margin: 0 0 0 4rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: solid 1px $primary-color;
+    text-decoration: none;
+    color: $primary-color-3;
 }
