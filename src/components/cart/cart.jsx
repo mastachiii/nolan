@@ -27,13 +27,13 @@ function Cart() {
             <h3>CART: </h3>
             <ul className={styles.cart}>
                 {cart &&
-                    cart.map((a, b) => (
+                    cart.map((a) => (
                         <ItemCart
-                            index={b + 1}
                             title={a.title}
                             handle={deleteCartItem}
                             key={a.title}
                             quantity={a.quantity}
+                            poster={a.poster}
                             price={a.price}
                             totalPriceHandler={setTotalPrice}
                         />
