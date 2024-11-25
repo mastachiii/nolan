@@ -38,9 +38,13 @@ function ItemCart({ title, price, quantity, poster, handle, totalPriceHandler })
             <div className={styles.quantity}>
                 <h4>QUANTITY</h4>
                 <span>
-                    <button onClick={minusQuantity}>-</button>
+                    <button onClick={minusQuantity}>
+                        <img src="/minus.svg" alt="" />
+                    </button>
                     <p>{currentQuantity}</p>
-                    <button onClick={addQuantity}>+</button>
+                    <button onClick={addQuantity}>
+                        <img src="/add.svg" alt="" />
+                    </button>
                 </span>
             </div>
             <div>
@@ -54,7 +58,7 @@ function ItemCart({ title, price, quantity, poster, handle, totalPriceHandler })
                 }}
                 className={styles.remove}
             >
-                REMOVE
+                <p>REMOVE</p>
             </button>
         </li>
     );
