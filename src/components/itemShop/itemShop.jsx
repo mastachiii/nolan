@@ -47,25 +47,27 @@ function ItemShop() {
                         <div className={styles.poster}>
                             <img src={data.poster} alt="" />
                         </div>
-                        <div className={styles.text}>
-                            <h3>{data.title}</h3>
-                            <p>
-                                <em>Directed by: {data.directors.join(", ")}</em>
-                            </p>
-                            <p>
-                                <em>Starring: {data.actors.join(", ")}</em>{" "}
-                            </p>
-                            <p>{data.description}</p>
-                        </div>
-                        <div className={styles.pricing}>
-                            <p>${data.price}</p>
-                            <button
-                                onClick={() => {
-                                    updateCart({ title: data.title, price: data.price }, "ADD");
-                                }}
-                            >
-                                Add To Cart
-                            </button>
+                        <div className={styles.container}>
+                            <div className={styles.text}>
+                                <h3>{data.title}</h3>
+                                <p>
+                                    <em>Directed by: {data.directors.join(", ")}</em>
+                                </p>
+                                <p>
+                                    <em>Starring: {data.actors.join(", ")}</em>{" "}
+                                </p>
+                                <p>{data.description}</p>
+                            </div>
+                            <div className={styles.pricing}>
+                                <p>${data.price}</p>
+                                <button
+                                    onClick={() => {
+                                        updateCart({ title: data.title, price: data.price }, "ADD");
+                                    }}
+                                >
+                                    Add To Cart
+                                </button>
+                            </div>
                         </div>
                     </section>
                 </main>
