@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useLocation, useParams } from "react-router-dom";
 import { updateCart } from "../../scripts/shop";
 import ShopHeader from "../shopHeader/shopHeader";
-import styles from "./ItemShop.module.scss";
+import styles from "./itemShop.module.scss";
 import Footer from "../footer/footer";
 import { useEffect, useState } from "react";
 import { getProducts } from "../../scripts/shop";
