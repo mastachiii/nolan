@@ -4245,13 +4245,7 @@
   },
   "cart": {
     "id": "cart",
-    "items": [
-      {
-        "title": "The Shining",
-        "price": 7.34,
-        "quantity": 1
-      }
-    ]
+    "items": []
   },
   "list": {
     "id": "list",

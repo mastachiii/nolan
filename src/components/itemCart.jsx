@@ -4,12 +4,12 @@ import { updateCart } from "../scripts/shop";
 
 function ItemCart({ title, price, index, handle, totalPriceHandler }) {
     const [quantity, setQuantity] = useState(1);
-    console.log(price)
+    console.log(price);
     // Change total price with each quantity change.
     const addQuantity = () => {
         if (quantity < 10) {
             setQuantity((q) => q + 1);
-            totalPriceHandler((t) => t + +price);
+            totalPriceHandler((t) => t + price);
         }
     };
 
@@ -30,7 +30,7 @@ function ItemCart({ title, price, index, handle, totalPriceHandler }) {
                 QUANTITY {quantity}
                 <button onClick={addQuantity}>+</button>
             </div>
-            <div>TOTAL ${price * quantity}</div>
+            <div>TOTAL ${(price * quantity).toFixed(2)}</div>
             <button
                 onClick={() => {
                     updateCart(title, "DELETE");

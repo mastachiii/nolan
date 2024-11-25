@@ -36,7 +36,7 @@ function Cart() {
                         />
                     ))}
             </ul>
-            <h3>${totalPrice}</h3>
+            <h3>${totalPrice ? totalPrice.toFixed(2) : 0}</h3>
             <Link to="/shop">BACK TO SHOP</Link>
         </div>
     );
