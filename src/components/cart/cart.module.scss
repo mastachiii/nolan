@@ -5,6 +5,7 @@
     flex-direction: column;
     margin: 3rem 0 0 0;
     gap: 1rem;
+    animation: pop-out 500ms ease forwards;
 
     li {
         h4 {
@@ -55,9 +56,16 @@
         margin: calc(5rem / 16) 0 0 0;
         background: none;
         background-color: $primary-color-3;
-        border: solid 1px $primary-color-3;
+        border: none;
         font-size: calc(15rem / 16);
+        font-weight: 600;
         color: $primary-color-2;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primary-color;
+            color: $primary-color-3;
+        }
     }
 }
 
@@ -70,4 +78,5 @@
     border-bottom: solid 1px $primary-color;
     text-decoration: none;
     color: $primary-color-3;
+    cursor: pointer;
 }

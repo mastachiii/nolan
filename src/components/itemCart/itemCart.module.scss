@@ -62,16 +62,21 @@
 
     .remove {
         width: 40%;
-        // height: 2rem;
         padding: 16px;
         align-self: center;
         margin-top: 2rem;
         background: none;
         border: solid 1px $primary-color-3;
         font-family: "Roboto";
+        cursor: pointer;
 
         p {
             font-size: calc(9rem / 16);
+        }
+
+        &:hover {
+            background-color: $primary-color;
+            color: white;
         }
     }
 }
