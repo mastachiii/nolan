@@ -85,13 +85,72 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-width: 1000px) {
     .cart {
         li:first-child {
             padding-bottom: 2rem;
             > button {
                 margin-top: calc(40rem / 16);
             }
+        }
+    }
+
+    .subTotal {
+        span {
+            gap: 6px;
+            p {
+                font-size: calc(14rem / 16);
+            }
+
+            p:first-child {
+                font-size: calc(10rem / 16);
+            }
+        }
+
+        button {
+            width: 20%;
+            padding: calc(10rem / 16);
+            font-size: calc(8rem / 16);
+        }
+    }
+
+    .link {
+        font-size: calc(10rem / 16);
+        margin: 0 10rem 0 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cart {
+        li:first-child {
+            padding-bottom: 0;
+
+            > div {
+                height: 6.5rem;
+            }
+
+            > button {
+                margin-top: 3.5rem;
+            }
+        }
+    }
+
+    .subTotal {
+        button {
+            width: 10%;
+        }
+    }
+    .link {
+        margin: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .subTotal {
+        button {
+            width: 20%;
+            padding: calc(10rem / 16);
+            font-size: calc(8rem / 16);
         }
     }
 }

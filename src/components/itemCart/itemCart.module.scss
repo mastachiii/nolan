@@ -90,7 +90,6 @@
         div {
             height: 4rem;
             align-self: center;
-
         }
 
         h4 {
@@ -130,6 +129,20 @@
                 font-size: calc(7rem / 16);
             }
         }
+    }
+}
 
+@media (max-width: 1000px) {
+    .itemCart{
+
+        p {
+            font-size: calc(12rem / 16);
+        }
+
+        .quantity {
+            button {
+                width: 10%;
+            }
+        }
     }
 }
