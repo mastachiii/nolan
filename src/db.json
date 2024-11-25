@@ -4247,12 +4247,9 @@
     "id": "cart",
     "items": [
       {
-        "title": "Oldboy",
-        "price": 39
-      },
-      {
-        "title": "Vertigo",
-        "price": 11
+        "title": "The Shining",
+        "price": 7.34,
+        "quantity": 1
       }
     ]
   },

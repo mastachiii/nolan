@@ -5,7 +5,7 @@ function ShopHeader() {
     return (
         <header className={styles.header}>
             <Link to="/">NOLAN</Link>
-            <Link to="cart">
+            <Link to="/shop/cart">
                 <img src="/cart.svg" alt="cart" />
             </Link>
         </header>
