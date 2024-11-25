@@ -4247,21 +4247,22 @@
     "id": "cart",
     "items": [
       {
+        "title": "Parasite",
+        "price": 39.3,
+        "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "quantity": 5
+      },
+      {
         "title": "The Godfather Part II",
         "price": 39.53,
         "quantity": 1,
         "poster": "https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
       },
       {
-        "title": "Parasite",
-        "price": 39.3,
+        "title": "Vertigo",
+        "price": 1.08,
         "quantity": 1,
-        "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
-      },
-      {
-        "title": "No Country for Old Men",
-        "price": 5.53,
-        "quantity": 5
+        "poster": "https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg"
       }
     ]
   },

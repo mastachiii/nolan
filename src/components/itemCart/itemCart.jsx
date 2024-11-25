@@ -11,7 +11,7 @@ function ItemCart({ title, price, quantity, poster, handle, totalPriceHandler })
         if (currentQuantity < 10) {
             setCurrentQuantity((q) => q + 1);
             totalPriceHandler((t) => t + price);
-            updateCart({ item: { title, price, quantity: currentQuantity + 1 }, method: "UPDATE" });
+            updateCart({ item: { title, price, poster, quantity: currentQuantity + 1 }, method: "UPDATE" });
         }
     };
 
