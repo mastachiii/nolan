@@ -24,16 +24,18 @@ function ItemCart({ title, price, quantity, poster, handle, totalPriceHandler })
 
     return (
         <li className={styles.itemCart}>
-            <div>
+            <div className={styles.item}>
                 <h4>ITEM</h4>
-                <img src={poster} alt="" />
-                <p>{title}</p>
+                <span>
+                    <img src={poster} alt="" />
+                    <p>{title}</p>
+                </span>
             </div>
             <div>
                 <h4>PRICE </h4>
                 <p>${price}</p>
             </div>
-            <div>
+            <div className={styles.quantity}>
                 <h4>QUANTITY</h4>
                 <span>
                     <button onClick={minusQuantity}>-</button>
@@ -50,6 +52,7 @@ function ItemCart({ title, price, quantity, poster, handle, totalPriceHandler })
                     updateCart({ key: title, method: "DELETE" });
                     handle(title, price * currentQuantity); // Force a re-render after API Call.
                 }}
+                className={styles.remove}
             >
                 REMOVE
             </button>

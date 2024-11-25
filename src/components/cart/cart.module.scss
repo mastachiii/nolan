@@ -1,5 +1,18 @@
 .cart {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+
+    li {
+        h4 {
+            display: none
+        }
+    }
+
+    li:first-child {
+        h4 {
+            display: block;
+            margin-bottom: 1rem;
+        }
+    }
 }

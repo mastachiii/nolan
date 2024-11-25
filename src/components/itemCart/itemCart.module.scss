@@ -1,4 +1,51 @@
+@import "../../main.scss";
+
 .itemCart {
+    // background-color: rebeccapurple;
+    width: 80%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    margin: 0 0 0 5rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin: auto 0;
+        }
+    }
+
+    h4 {
+        margin: 0 0 0 0;
+        font-size: calc(20rem / 16);
+    }
+
+    p {
+        font-size: calc(20rem / 16);
+    }
+
+    .item {
+        span {
+            display: flex;
+
+            img {
+                width: 15%;
+                margin: 0 1rem 0 0;
+            }
+        }
+    }
+
+    .quantity {
+        span {
+            display: flex;
+            margin: auto 0;
+        }
+    }
+
+    .remove {
+        width: 30%;
+        height: 30%;
+        margin: auto 0;
+    }
 }

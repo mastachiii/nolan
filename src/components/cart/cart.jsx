@@ -24,7 +24,6 @@ function Cart() {
     return (
         <div>
             <ShopHeader />
-            <h3>CART: </h3>
             <ul className={styles.cart}>
                 {cart &&
                     cart.map((a) => (
@@ -39,7 +38,10 @@ function Cart() {
                         />
                     ))}
             </ul>
-            <h3>${totalPrice ? totalPrice.toFixed(2) : 0}</h3>
+            <div>
+                <p>SUBTOTAL: ${totalPrice ? totalPrice.toFixed(2) : 0} </p>
+                <button>CHECKOUT</button>
+            </div>
             <Link to="/shop">BACK TO SHOP</Link>
         </div>
     );
