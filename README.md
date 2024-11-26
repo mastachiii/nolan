@@ -1,8 +1,19 @@
-# React + Vite
+# NOLAN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end mock shopping cart that features my favorite films.
 
-Currently, two official plugins are available:
+## Built with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React
+* SASS
+* Vite
+  
+## Features
+
+* Accurate Movie Information and images of posters and backdrops thanks to [TMDb API](https://developer.themoviedb.org/docs/getting-started)
+* Website follows the SPA Architecture 
+* Responsive Design
+* Search Products with keywords or specific genre.
+
+  
+  
