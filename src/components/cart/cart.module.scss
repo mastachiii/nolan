@@ -108,6 +108,7 @@
     }
 
     .subTotal {
+        margin-bottom: 15rem;
         span {
             gap: 6px;
             p {
@@ -119,10 +120,15 @@
             }
         }
 
-        button {
-            width: 20%;
-            padding: calc(10rem / 16);
-            font-size: calc(8rem / 16);
+        a:first-of-type {
+            width: 12%;
+            // padding: calc(1rem / 16);
+            
+            button {
+                width: 100%;
+                margin: 0 auto;
+                font-size: calc(8rem / 16);
+            }
         }
     }
 
@@ -149,7 +155,7 @@
 
     .subTotal {
         button {
-            width: 10%;
+            width: 100%;    
         }
     }
     .link {
@@ -159,10 +165,14 @@
 
 @media (max-width: 600px) {
     .subTotal {
-        button {
+        a:first-of-type {
             width: 20%;
-            padding: calc(10rem / 16);
-            font-size: calc(8rem / 16);
+            
+            button {
+                width: 100%;
+                padding: calc(10rem / 16);
+                font-size: calc(8rem / 16);
+            }
         }
     }
 }
