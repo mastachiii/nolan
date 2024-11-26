@@ -11,10 +11,12 @@ function Cart() {
     const [totalPrice, setTotalPrice] = useState(null);
 
     useEffect(() => {
-        getCart().then((response) => {
-            setCart(response.items);
-            setTotalPrice(response.items.reduce((a, b) => (a += b.price * b.quantity), 0));
-        });
+        const cart = getCart();
+
+        if (cart) {
+            setCart(cart);
+            setTotalPrice(cart.reduce((a, b) => (a += b.price * b.quantity), 0));
+        }
     }, []);
 
     const deleteCartItem = (title, price) => {
@@ -47,7 +49,9 @@ function Cart() {
                     <p>SUBTOTAL:</p>
                     <p>${totalPrice > 0 ? totalPrice.toFixed(2) : 0} </p>
                 </span>
-                <button>CHECKOUT</button>
+                <a href="https://www.youtube.com/watch?v=MJbE3uWN9vE">
+                    <button>CHECKOUT</button>
+                </a>
                 <Link to="/shop" className={styles.link}>
                     BACK TO SHOP
                 </Link>

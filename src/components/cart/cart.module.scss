@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem;
-    margin: 2rem 3rem 20rem 0;
+    margin: 12rem 3rem 40rem 0;
     font-family: sans-serif;
 
     p {
@@ -62,21 +62,25 @@
         }
     }
 
-    button {
+    a:first-of-type {
         width: 8%;
-        padding: calc(15rem / 16);
         margin: calc(5rem / 16) 0 0 0;
-        background: none;
-        background-color: $primary-color-3;
-        border: none;
-        font-size: calc(15rem / 16);
-        font-weight: 600;
-        color: $primary-color-2;
-        cursor: pointer;
 
-        &:hover {
-            background-color: $primary-color;
-            color: $primary-color-3;
+        button {
+            padding: calc(15rem / 16);
+            margin: calc(5rem / 16) 0 0 1rem;
+            background: none;
+            background-color: $primary-color-3;
+            border: none;
+            font-size: calc(15rem / 16);
+            font-weight: 600;
+            color: $primary-color-2;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $primary-color;
+                color: $primary-color-3;
+            }
         }
     }
 }

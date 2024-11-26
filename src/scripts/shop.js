@@ -3,39 +3,39 @@
 import axios from "axios";
 
 function getProducts() {
-    const request = axios.get("http://localhost:3001/products");
+    const request = axios.get("https://dummyjson.com/c/d81d-c125-4932-bf2b");
 
     return request.then((r) => r.data);
 }
 
 function getCart() {
-    const request = axios.get("http://localhost:3001/cart");
+    const cart = JSON.parse(localStorage.getItem("cart"));
 
-    return request.then((r) => r.data);
+    if (!cart) localStorage.setItem("cart", "[]");
+
+    return cart;
 }
 
 // Get current cart array first then do specified method.
 async function updateCart({ item, method, key }) {
-    let cart;
-
-    await getCart().then((response) => {
-        cart = response;
-    });
+    let cart = getCart();
 
     switch (method) {
         case "ADD":
-            cart.items.find((a) => a.title === item.title) ? null : cart.items.push(item);
+            cart.find((a) => a.title === item.title) ? null : cart.push(item);
+            console.log(cart);
             break;
         case "DELETE":
-            cart.items = cart.items.filter((a) => a.title !== key);
+            cart.items = cart.filter((a) => a.title !== key);
             break;
         case "UPDATE": {
-            const itemIndex = cart.items.findIndex((a) => a.title === item.title);
-            cart.items[itemIndex] = item;
+            const itemIndex = cart.findIndex((a) => a.title === item.title);
+            cart[itemIndex] = item;
         }
     }
 
-    axios.put("http://localhost:3001/cart", cart);
+    cart = JSON.stringify(cart)
+    localStorage.setItem("cart", cart);
 }
 
 const genres = [
