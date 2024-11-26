@@ -36,4 +36,6 @@ A front-end mock shopping cart that features my favorite films.
 ## Mobile
 
 ![Shop](/img/shopMobile.png)
+
+![Details](</img/detailMobile (2).png>)
   
