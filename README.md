@@ -2,6 +2,8 @@
 
 A front-end mock shopping cart that features my favorite films.
 
+[Live Preview](https://top-shopping-cart-beryl.vercel.app/)
+
 ## Built with
 
 * React
@@ -15,5 +17,23 @@ A front-end mock shopping cart that features my favorite films.
 * Responsive Design
 * Search Products with keywords or specific genre.
 
-  
+## Screenshots
+
+### Desktop
+
+![Homepage](/img/homepage.PNG)
+
+![Shop](/img/shop.PNG)
+
+![Details](/img/detail.png)
+
+## Tablet
+
+![Shop](/img/shopTablet.png)
+
+![Details](/img/detailTablet.png)
+
+## Mobile
+
+![Shop](/img/shopMobile.png)
   
