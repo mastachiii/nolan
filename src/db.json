@@ -6,7 +6,7 @@
         "id": 240,
         "title": "The Godfather Part II",
         "poster": "https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
-        "price": "39.53",
+        "price": 32,
         "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
         "genres": [
           "Drama",
@@ -69,7 +69,7 @@
         "id": 496243,
         "title": "Parasite",
         "poster": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-        "price": "39.30",
+        "price": 13,
         "description": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
         "genres": [
           "Comedy",
@@ -131,7 +131,8 @@
           "https://image.tmdb.org/t/p/original/otp5YXXxHvPR9z26RXgW0lAo10w.jpg",
           "https://image.tmdb.org/t/p/original/cX73fOj8uadmR8p8GevjNTLYMpM.jpg",
           "https://image.tmdb.org/t/p/original/dmXQPjjssQon28MKB3kqkSG1Xgm.jpg",
-          "https://image.tmdb.org/t/p/original/wmyNyzLUeolbp3XAz0UD4RFS5a4.jpg"
+          "https://image.tmdb.org/t/p/original/wmyNyzLUeolbp3XAz0UD4RFS5a4.jpg",
+          "https://image.tmdb.org/t/p/original/knTj7U46izMKF8uvxfK5CqbK0OC.jpg"
         ],
         "directors": [
           "Bong Joon-ho"
@@ -146,7 +147,7 @@
         "id": 769,
         "title": "GoodFellas",
         "poster": "https://image.tmdb.org/t/p/original/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-        "price": "38.44",
+        "price": 31,
         "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
         "genres": [
           "Drama",
@@ -218,7 +219,7 @@
         "id": 7345,
         "title": "There Will Be Blood",
         "poster": "https://image.tmdb.org/t/p/original/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-        "price": "47.11",
+        "price": 5,
         "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
         "genres": [
           "Drama"
@@ -268,7 +269,7 @@
         "id": 670,
         "title": "Oldboy",
         "poster": "https://image.tmdb.org/t/p/original/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
-        "price": "49.41",
+        "price": 37,
         "description": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
         "genres": [
           "Drama",
@@ -340,7 +341,7 @@
         "id": 6977,
         "title": "No Country for Old Men",
         "poster": "https://image.tmdb.org/t/p/original/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg",
-        "price": "5.53",
+        "price": 42,
         "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
         "genres": [
           "Crime",
@@ -377,8 +378,8 @@
           "https://image.tmdb.org/t/p/original/aVcxLRcAkJUUb80Gm2RC2z1GtBp.jpg"
         ],
         "directors": [
-          "Ethan Coen",
-          "Joel Coen"
+          "Joel Coen",
+          "Ethan Coen"
         ],
         "actors": [
           "Javier Bardem",
@@ -390,7 +391,7 @@
         "id": 807,
         "title": "Se7en",
         "poster": "https://image.tmdb.org/t/p/original/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
-        "price": "40.89",
+        "price": 41,
         "description": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
         "genres": [
           "Crime",
@@ -444,7 +445,7 @@
         "id": 1422,
         "title": "The Departed",
         "poster": "https://image.tmdb.org/t/p/original/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
-        "price": "7.54",
+        "price": 40,
         "description": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
         "genres": [
           "Drama",
@@ -508,7 +509,7 @@
         "id": 11104,
         "title": "Chungking Express",
         "poster": "https://image.tmdb.org/t/p/original/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
-        "price": "38.17",
+        "price": 26,
         "description": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
         "genres": [
           "Drama",
@@ -585,8 +586,7 @@
           "https://image.tmdb.org/t/p/original/f3ox4wVkAvABJfzMerJSB7qAkzI.jpg",
           "https://image.tmdb.org/t/p/original/v0BYY2vmI57GkjHgRkXsoeIxGNj.jpg",
           "https://image.tmdb.org/t/p/original/TsClZibki4KZE8ONMl3jUHOp2E.jpg",
-          "https://image.tmdb.org/t/p/original/5H5rCHlnkg6UVB30GmWAd5eicxy.jpg",
-          "https://image.tmdb.org/t/p/original/syQzENScbnwrLdbIChSQi9Ryq1o.jpg"
+          "https://image.tmdb.org/t/p/original/5H5rCHlnkg6UVB30GmWAd5eicxy.jpg"
         ],
         "directors": [
           "Wong Kar-wai"
@@ -601,7 +601,7 @@
         "id": 680,
         "title": "Pulp Fiction",
         "poster": "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
-        "price": "11.42",
+        "price": 47,
         "description": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
         "genres": [
           "Thriller",
@@ -649,7 +649,8 @@
           "https://image.tmdb.org/t/p/original/t0vJ5SkdOxzECDw4X9IvaXc1o68.jpg",
           "https://image.tmdb.org/t/p/original/hQAvKUPjrh6Se3cf8arLIWxfXc.jpg",
           "https://image.tmdb.org/t/p/original/kEMHy177TS3JkpHRRuI00Kufoge.jpg",
-          "https://image.tmdb.org/t/p/original/jfEgq6L9TbL6sdiDDykxyNUQAla.jpg"
+          "https://image.tmdb.org/t/p/original/jfEgq6L9TbL6sdiDDykxyNUQAla.jpg",
+          "https://image.tmdb.org/t/p/original/1WyKxFE1h2PIktehE2zjcABfnV.jpg"
         ],
         "directors": [
           "Quentin Tarantino"
@@ -664,7 +665,7 @@
         "id": 1578,
         "title": "Raging Bull",
         "poster": "https://image.tmdb.org/t/p/original/8p2ld8P41uY32kusYNPBjX5mFGn.jpg",
-        "price": "3.47",
+        "price": 32,
         "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
         "genres": [
           "Drama"
@@ -720,7 +721,7 @@
         "id": 694,
         "title": "The Shining",
         "poster": "https://image.tmdb.org/t/p/original/nRj5511mZdTl4saWEPoj9QroTIu.jpg",
-        "price": "7.34",
+        "price": 4,
         "description": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
         "genres": [
           "Horror",
@@ -783,7 +784,7 @@
         "id": 426,
         "title": "Vertigo",
         "poster": "https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
-        "price": "1.08",
+        "price": 49,
         "description": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
         "genres": [
           "Mystery",
@@ -862,7 +863,7 @@
         "id": 38,
         "title": "Eternal Sunshine of the Spotless Mind",
         "poster": "https://image.tmdb.org/t/p/original/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
-        "price": "12.10",
+        "price": 46,
         "description": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
         "genres": [
           "Science Fiction",
@@ -928,9 +929,7 @@
           "https://image.tmdb.org/t/p/original/pTTz2UueO7fP2RwnIxtSqvzsq3Z.jpg",
           "https://image.tmdb.org/t/p/original/xk72PHkHvcjd14RW9KASYTplWUb.jpg",
           "https://image.tmdb.org/t/p/original/aHiG0Gjz3FNy7LJM20T6H9njApa.jpg",
-          "https://image.tmdb.org/t/p/original/7kusgH1pDpMWeRlhuHj0Mqsfsex.jpg",
-          "https://image.tmdb.org/t/p/original/njn73IcTOg5qxiTkdaJHHQQwYyz.jpg",
-          "https://image.tmdb.org/t/p/original/aKqL1UQ7jx8Qbge897aX86R3bp.jpg"
+          "https://image.tmdb.org/t/p/original/7kusgH1pDpMWeRlhuHj0Mqsfsex.jpg"
         ],
         "directors": [
           "Michel Gondry"
@@ -945,7 +944,7 @@
         "id": 550,
         "title": "Fight Club",
         "poster": "https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
-        "price": "36.76",
+        "price": 16,
         "description": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
         "genres": [
           "Drama"
@@ -997,7 +996,7 @@
         "id": 976893,
         "title": "Perfect Days",
         "poster": "https://image.tmdb.org/t/p/original/hS470drU17L1oTGCJOzSmPIuIeH.jpg",
-        "price": "33.34",
+        "price": 36,
         "description": "Hirayama is content with his life as a toilet cleaner in Tokyo. Outside of his structured routine, he cherishes music on cassette tapes, books, and taking photos of trees. Through unexpected encounters, he reflects on finding beauty in the world.",
         "genres": [
           "Drama"
@@ -1045,7 +1044,7 @@
         "id": 68718,
         "title": "Django Unchained",
         "poster": "https://image.tmdb.org/t/p/original/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
-        "price": "48.92",
+        "price": 44,
         "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
         "genres": [
           "Drama",
@@ -1085,7 +1084,8 @@
           "https://image.tmdb.org/t/p/original/166E3iHhlJ6vvQ3GssgdvpkWGUW.jpg",
           "https://image.tmdb.org/t/p/original/yoY7K2mIoIN9seideGY8fr08gEv.jpg",
           "https://image.tmdb.org/t/p/original/jlXmXHz69nUvD6L1k27MdapToWx.jpg",
-          "https://image.tmdb.org/t/p/original/t16A6ElWRCAFx24IrzTjm3QpXLu.jpg"
+          "https://image.tmdb.org/t/p/original/t16A6ElWRCAFx24IrzTjm3QpXLu.jpg",
+          "https://image.tmdb.org/t/p/original/m7wfgcv4whIXBSLs1sgMQflUbRc.jpg"
         ],
         "directors": [
           "Quentin Tarantino"
@@ -1100,7 +1100,7 @@
         "id": 968,
         "title": "Dog Day Afternoon",
         "poster": "https://image.tmdb.org/t/p/original/mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
-        "price": "22.42",
+        "price": 48,
         "description": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus.",
         "genres": [
           "Crime",
@@ -1137,7 +1137,7 @@
         "id": 274,
         "title": "The Silence of the Lambs",
         "poster": "https://image.tmdb.org/t/p/original/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
-        "price": "9.65",
+        "price": 6,
         "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
         "genres": [
           "Crime",
@@ -1203,7 +1203,7 @@
         "id": 423,
         "title": "The Pianist",
         "poster": "https://image.tmdb.org/t/p/original/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
-        "price": "42.54",
+        "price": 24,
         "description": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
         "genres": [
           "Drama",
@@ -1242,7 +1242,7 @@
         "id": 843,
         "title": "In the Mood for Love",
         "poster": "https://image.tmdb.org/t/p/original/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
-        "price": "12.43",
+        "price": 9,
         "description": "In Hong Kong of 1962, Mrs. Chan and Mr. Chow, a journalist, move into neighbouring apartments on the same day. Their encounters are formal and polite—until a discovery about their respective spouses creates an intimate bond between them.",
         "genres": [
           "Drama",
@@ -1294,7 +1294,7 @@
         "id": 238,
         "title": "The Godfather",
         "poster": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-        "price": "46.89",
+        "price": 41,
         "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
         "genres": [
           "Drama",
@@ -1346,7 +1346,7 @@
         "id": 2108,
         "title": "The Breakfast Club",
         "poster": "https://image.tmdb.org/t/p/original/vSqk5BeQ1HvP9wq0rWZyWqiwXeF.jpg",
-        "price": "38.03",
+        "price": 46,
         "description": "Five high school students from different walks of life endure a Saturday detention under a power-hungry principal. The disparate group includes rebel John, princess Claire, outcast Allison, brainy Brian and Andrew, the jock. Each has a chance to tell his or her story, making the others see them a little differently -- and when the day ends, they question whether school will ever be the same.",
         "genres": [
           "Comedy",
@@ -1397,7 +1397,7 @@
         "id": 12493,
         "title": "High and Low",
         "poster": "https://image.tmdb.org/t/p/original/tgNjemQPG96uIezpiUiXFcer5ga.jpg",
-        "price": "37.59",
+        "price": 41,
         "description": "In the midst of an attempt to take over his company, a powerhouse executive is hit with a huge ransom demand when his chauffeur's son is kidnapped by mistake.",
         "genres": [
           "Drama",
@@ -1440,7 +1440,7 @@
         "id": 666277,
         "title": "Past Lives",
         "poster": "https://image.tmdb.org/t/p/original/rzO71VFu7CpJMfF5TQNMj0d1lSV.jpg",
-        "price": "25.95",
+        "price": 8,
         "description": "Nora and Hae Sung, two childhood friends, are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life.",
         "genres": [
           "Drama",
@@ -1509,7 +1509,7 @@
         "id": 949,
         "title": "Heat",
         "poster": "https://image.tmdb.org/t/p/original/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
-        "price": "10.99",
+        "price": 16,
         "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
         "genres": [
           "Crime",
@@ -1546,7 +1546,8 @@
           "https://image.tmdb.org/t/p/original/hN6PvgsKrwyxGvxiaOfumzuK0Ea.jpg",
           "https://image.tmdb.org/t/p/original/tiQsnPvd1NNt1EnbLQGgN1lb6nS.jpg",
           "https://image.tmdb.org/t/p/original/tgnv1AX1XtD3ugJ2dhbvWLB8Stv.jpg",
-          "https://image.tmdb.org/t/p/original/shctnbCG2Ex1zZztsarG4b7LKQ8.jpg"
+          "https://image.tmdb.org/t/p/original/shctnbCG2Ex1zZztsarG4b7LKQ8.jpg",
+          "https://image.tmdb.org/t/p/original/jYBEcUc37y2kg94a0FAEsJclgP2.jpg"
         ],
         "directors": [
           "Michael Mann"
@@ -1561,7 +1562,7 @@
         "id": 466272,
         "title": "Once Upon a Time... in Hollywood",
         "poster": "https://image.tmdb.org/t/p/original/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-        "price": "34.71",
+        "price": 7,
         "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
         "genres": [
           "Comedy",
@@ -1632,7 +1633,11 @@
           "https://image.tmdb.org/t/p/original/cpkvb8y35zNTb20ym09ohkoB157.jpg",
           "https://image.tmdb.org/t/p/original/eyWYjnxagZbK3uKOJGNUPpOchRZ.jpg",
           "https://image.tmdb.org/t/p/original/5vm4wPieTeq3cspzdccAwiu8hUj.jpg",
-          "https://image.tmdb.org/t/p/original/6oiP3T4Tq6ZmKNvtzwJoALXsWhY.jpg"
+          "https://image.tmdb.org/t/p/original/6oiP3T4Tq6ZmKNvtzwJoALXsWhY.jpg",
+          "https://image.tmdb.org/t/p/original/cGLAC9zYKNQAD9mldVjyvdr0KQU.jpg",
+          "https://image.tmdb.org/t/p/original/4jaY7g1yzpkrkhE9d7axF1WioSA.jpg",
+          "https://image.tmdb.org/t/p/original/16vMPVSzhaZ5zlqpBwFHn6kGwjl.jpg",
+          "https://image.tmdb.org/t/p/original/465XnYAs9pY4GWvjwDn2M4iEJ4Y.jpg"
         ],
         "directors": [
           "Quentin Tarantino"
@@ -1647,7 +1652,7 @@
         "id": 111,
         "title": "Scarface",
         "poster": "https://image.tmdb.org/t/p/original/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
-        "price": "23.22",
+        "price": 49,
         "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
         "genres": [
           "Action",
@@ -1695,7 +1700,7 @@
         "id": 27554,
         "title": "The Panic in Needle Park",
         "poster": "https://image.tmdb.org/t/p/original/rhJ8Dnl6Z9KR9R2zskBKIfrFeFs.jpg",
-        "price": "36.71",
+        "price": 36,
         "description": "A stark portrayal of life among a group of heroin addicts who hang out in Needle Park in New York City. Played against this setting is a low-key love story between Bobby, a young addict and small-time hustler, and Helen, a homeless girl who finds in her relationship with Bobby the stability she craves.",
         "genres": [
           "Drama",
@@ -1729,7 +1734,7 @@
         "id": 8392,
         "title": "My Neighbor Totoro",
         "poster": "https://image.tmdb.org/t/p/original/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
-        "price": "18.44",
+        "price": 24,
         "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
         "genres": [
           "Fantasy",
@@ -1827,7 +1832,7 @@
         "id": 2640,
         "title": "Heathers",
         "poster": "https://image.tmdb.org/t/p/original/qojEzGpvbrYrhZV9arCZhkYQT3d.jpg",
-        "price": "6.75",
+        "price": 8,
         "description": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
         "genres": [
           "Comedy",
@@ -1875,7 +1880,7 @@
         "id": 9366,
         "title": "Donnie Brasco",
         "poster": "https://image.tmdb.org/t/p/original/xtKLvpOfARi1XVm8u2FTdhY5Piq.jpg",
-        "price": "41.55",
+        "price": 41,
         "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.",
         "genres": [
           "Crime",
@@ -1909,7 +1914,7 @@
         "id": 27205,
         "title": "Inception",
         "poster": "https://image.tmdb.org/t/p/original/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
-        "price": "28.98",
+        "price": 25,
         "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
         "genres": [
           "Action",
@@ -1971,7 +1976,7 @@
         "id": 106646,
         "title": "The Wolf of Wall Street",
         "poster": "https://image.tmdb.org/t/p/original/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
-        "price": "6.13",
+        "price": 19,
         "description": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
         "genres": [
           "Crime",
@@ -1982,6 +1987,7 @@
           "https://image.tmdb.org/t/p/original/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
           "https://image.tmdb.org/t/p/original/63y4XSVTZ7mRzAzkqwi3o0ajDZZ.jpg",
           "https://image.tmdb.org/t/p/original/tlkqFMa1sXMlvo4VCyQCX31Cr47.jpg",
+          "https://image.tmdb.org/t/p/original/98mE2urv3uWusLEYvQZF8Og2jhU.jpg",
           "https://image.tmdb.org/t/p/original/gdavHcRqZYOaOprdGoMccgxMhQX.jpg",
           "https://image.tmdb.org/t/p/original/3L1Lx9tlHS60gkERKK5xOcbzTVA.jpg",
           "https://image.tmdb.org/t/p/original/2DZjKCPnwBKHz5VRX46rKJ9VXnz.jpg",
@@ -2035,7 +2041,8 @@
           "https://image.tmdb.org/t/p/original/uHk3aAJJaVsqHzOLU1wfsEp86jy.jpg",
           "https://image.tmdb.org/t/p/original/pX5Pv0t0YImalh4mVZuKgannAYG.jpg",
           "https://image.tmdb.org/t/p/original/soP0n9Yp2f5S16zNaoIfPfWl12c.jpg",
-          "https://image.tmdb.org/t/p/original/eilbbNWomYygfW4FP0GYBfXe14y.jpg"
+          "https://image.tmdb.org/t/p/original/eilbbNWomYygfW4FP0GYBfXe14y.jpg",
+          "https://image.tmdb.org/t/p/original/9QkKqrK3hPw2dAT9bEzeOoduJBl.jpg"
         ],
         "directors": [
           "Martin Scorsese"
@@ -2050,7 +2057,7 @@
         "id": 640,
         "title": "Catch Me If You Can",
         "poster": "https://image.tmdb.org/t/p/original/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg",
-        "price": "29.42",
+        "price": 24,
         "description": "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.",
         "genres": [
           "Drama",
@@ -2102,7 +2109,7 @@
         "id": 105,
         "title": "Back to the Future",
         "poster": "https://image.tmdb.org/t/p/original/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
-        "price": "8.22",
+        "price": 30,
         "description": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
         "genres": [
           "Adventure",
@@ -2172,7 +2179,7 @@
         "id": 161,
         "title": "Ocean's Eleven",
         "poster": "https://image.tmdb.org/t/p/original/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
-        "price": "0.55",
+        "price": 0,
         "description": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
         "genres": [
           "Thriller",
@@ -2224,7 +2231,7 @@
         "id": 284,
         "title": "The Apartment",
         "poster": "https://image.tmdb.org/t/p/original/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
-        "price": "19.83",
+        "price": 46,
         "description": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
         "genres": [
           "Comedy",
@@ -2279,7 +2286,7 @@
         "id": 639,
         "title": "When Harry Met Sally...",
         "poster": "https://image.tmdb.org/t/p/original/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg",
-        "price": "10.11",
+        "price": 35,
         "description": "During their travel from Chicago to New York, Harry and Sally debate whether or not sex ruins a friendship between a man and a woman. Eleven years later, and they're still no closer to finding the answer.",
         "genres": [
           "Comedy",
@@ -2320,7 +2327,7 @@
         "id": 76,
         "title": "Before Sunrise",
         "poster": "https://image.tmdb.org/t/p/original/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg",
-        "price": "17.48",
+        "price": 15,
         "description": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
         "genres": [
           "Drama",
@@ -2364,7 +2371,7 @@
         "id": 1402,
         "title": "The Pursuit of Happyness",
         "poster": "https://image.tmdb.org/t/p/original/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg",
-        "price": "24.06",
+        "price": 37,
         "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
         "genres": [
           "Drama"
@@ -2399,7 +2406,7 @@
         "id": 103,
         "title": "Taxi Driver",
         "poster": "https://image.tmdb.org/t/p/original/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
-        "price": "46.95",
+        "price": 8,
         "description": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action.",
         "genres": [
           "Crime",
@@ -2459,7 +2466,7 @@
         "id": 37799,
         "title": "The Social Network",
         "poster": "https://image.tmdb.org/t/p/original/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
-        "price": "48.51",
+        "price": 1,
         "description": "The tale of a new breed of cultural insurgent: a punk genius who sparked a revolution and changed the face of human interaction for a generation, and perhaps forever. Chronicling the formation of Facebook and the battles over ownership that followed upon the website's unfathomable success, The Social Network bears witness to the birth of an idea that rewove the fabric of society even as it unraveled the friendship of its creators.",
         "genres": [
           "Drama"
@@ -2500,7 +2507,10 @@
           "https://image.tmdb.org/t/p/original/siLkv6FLUKEruZtkA4I7YcZGD5C.jpg",
           "https://image.tmdb.org/t/p/original/sEGd8w0emHPHF3vfXsL18EdsmnA.jpg",
           "https://image.tmdb.org/t/p/original/xeWHUPB9R0GucSK9QhKW7vwYhbM.jpg",
-          "https://image.tmdb.org/t/p/original/lJcUfouowaWNv2WAwCEaPpsmqih.jpg"
+          "https://image.tmdb.org/t/p/original/lJcUfouowaWNv2WAwCEaPpsmqih.jpg",
+          "https://image.tmdb.org/t/p/original/xWbQ2QVz4W6pfh5CJskaHyRDTqh.jpg",
+          "https://image.tmdb.org/t/p/original/eSwHavtMnSzv7sOcEq4MfQ8Q8cq.jpg",
+          "https://image.tmdb.org/t/p/original/lttryiJmSqsc97x93mqJ1JFV3eA.jpg"
         ],
         "directors": [
           "David Fincher"
@@ -2515,7 +2525,7 @@
         "id": 64690,
         "title": "Drive",
         "poster": "https://image.tmdb.org/t/p/original/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
-        "price": "39.07",
+        "price": 35,
         "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
         "genres": [
           "Drama",
@@ -2524,8 +2534,8 @@
         ],
         "backdrops": [
           "https://image.tmdb.org/t/p/original/9ly9pxGwiB6g5lIZXou2HKXl7ua.jpg",
-          "https://image.tmdb.org/t/p/original/1oaLxMtdn47TWdaty8BwdU4oXhV.jpg",
           "https://image.tmdb.org/t/p/original/hoyAALgfmjMEK7O1wZ4r8wT91RP.jpg",
+          "https://image.tmdb.org/t/p/original/1oaLxMtdn47TWdaty8BwdU4oXhV.jpg",
           "https://image.tmdb.org/t/p/original/iymDDg4upZWgpbSeiE1JCjsSPBs.jpg",
           "https://image.tmdb.org/t/p/original/2YuUDiaAB1oDbfhGVb2KqNeGwds.jpg",
           "https://image.tmdb.org/t/p/original/oakFfqRzFJKQsitSqxF3rKTUxv4.jpg",
@@ -2573,7 +2583,7 @@
         "id": 429,
         "title": "The Good, the Bad and the Ugly",
         "poster": "https://image.tmdb.org/t/p/original/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
-        "price": "43.93",
+        "price": 44,
         "description": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
         "genres": [
           "Western"
@@ -2623,7 +2633,7 @@
         "id": 1949,
         "title": "Zodiac",
         "poster": "https://image.tmdb.org/t/p/original/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
-        "price": "3.34",
+        "price": 4,
         "description": "The zodiac murders cause the lives of Paul Avery, David Toschi and Robert Graysmith to intersect.",
         "genres": [
           "Crime",
@@ -2670,7 +2680,7 @@
         "id": 11220,
         "title": "Fallen Angels",
         "poster": "https://image.tmdb.org/t/p/original/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
-        "price": "43.07",
+        "price": 31,
         "description": "An assassin goes through obstacles as he attempts to escape his violent lifestyle despite the opposition of his partner, who is secretly attracted to him.",
         "genres": [
           "Action",
@@ -2729,7 +2739,7 @@
         "id": 1847,
         "title": "The Long Goodbye",
         "poster": "https://image.tmdb.org/t/p/original/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg",
-        "price": "19.89",
+        "price": 7,
         "description": "In 1970s Hollywood, Detective Philip Marlowe tries to help a friend who is accused of murdering his wife.",
         "genres": [
           "Mystery",
@@ -2770,7 +2780,7 @@
         "id": 1359,
         "title": "American Psycho",
         "poster": "https://image.tmdb.org/t/p/original/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-        "price": "40.48",
+        "price": 17,
         "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
         "genres": [
           "Thriller",
@@ -2837,7 +2847,7 @@
         "id": 492188,
         "title": "Marriage Story",
         "poster": "https://image.tmdb.org/t/p/original/2JRyCKaRKyJAVpsIHeLvPw5nHmw.jpg",
-        "price": "20.52",
+        "price": 23,
         "description": "A stage director and an actress struggle through a grueling, coast-to-coast divorce that pushes them to their personal extremes.",
         "genres": [
           "Drama"
@@ -2876,7 +2886,7 @@
         "id": 976,
         "title": "Sweet Smell of Success",
         "poster": "https://image.tmdb.org/t/p/original/akzvV8JasNrgEl5iAP9K6zPHGJe.jpg",
-        "price": "3.50",
+        "price": 32,
         "description": "New York City newspaper writer J.J. Hunsecker holds considerable sway over public opinion with his Broadway column, but one thing that he can't control is his younger sister, Susan, who is in a relationship with aspiring jazz guitarist Steve Dallas. Hunsecker strongly disapproves of the romance and recruits publicist Sidney Falco to find a way to split the couple, no matter how ruthless the method.",
         "genres": [
           "Drama"
@@ -2911,7 +2921,7 @@
         "id": 10494,
         "title": "Perfect Blue",
         "poster": "https://image.tmdb.org/t/p/original/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
-        "price": "36.66",
+        "price": 7,
         "description": "Encouraged by her managers, rising pop star Mima takes on a recurring role on a popular TV show, when suddenly her handlers and collaborators begin turning up murdered.",
         "genres": [
           "Animation",
@@ -2963,7 +2973,7 @@
         "id": 11,
         "title": "Star Wars",
         "poster": "https://image.tmdb.org/t/p/original/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-        "price": "43.96",
+        "price": 9,
         "description": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
         "genres": [
           "Adventure",
@@ -3056,7 +3066,7 @@
         "id": 1366,
         "title": "Rocky",
         "poster": "https://image.tmdb.org/t/p/original/aYtBYWqCdUqcnoodWJdcTG3pFev.jpg",
-        "price": "20.32",
+        "price": 24,
         "description": "An uneducated collector for a Philadelphia loan shark is given a once-in-a-lifetime opportunity to fight against the world heavyweight boxing champion.",
         "genres": [
           "Drama"
@@ -3096,7 +3106,7 @@
         "id": 984,
         "title": "Dirty Harry",
         "poster": "https://image.tmdb.org/t/p/original/UHxxkYe9tRdiPu0JFgcEL5hmQ4.jpg",
-        "price": "43.85",
+        "price": 14,
         "description": "When a madman dubbed 'Scorpio' terrorizes San Francisco, hard-nosed cop, Harry Callahan – famous for his take-no-prisoners approach to law enforcement – is tasked with hunting down the psychopath.",
         "genres": [
           "Action",
@@ -3136,7 +3146,7 @@
         "id": 490132,
         "title": "Green Book",
         "poster": "https://image.tmdb.org/t/p/original/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
-        "price": "26.26",
+        "price": 6,
         "description": "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.",
         "genres": [
           "Drama",
@@ -3182,7 +3192,7 @@
         "id": 1892,
         "title": "Return of the Jedi",
         "poster": "https://image.tmdb.org/t/p/original/jQYlydvHm3kUix1f8prMucrplhm.jpg",
-        "price": "20.43",
+        "price": 20,
         "description": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
         "genres": [
           "Adventure",
@@ -3261,7 +3271,7 @@
         "id": 13,
         "title": "Forrest Gump",
         "poster": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
-        "price": "7.17",
+        "price": 6,
         "description": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
         "genres": [
           "Comedy",
@@ -3303,7 +3313,7 @@
         "id": 157336,
         "title": "Interstellar",
         "poster": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-        "price": "8.94",
+        "price": 48,
         "description": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
         "genres": [
           "Adventure",
@@ -3430,7 +3440,7 @@
         "id": 4951,
         "title": "10 Things I Hate About You",
         "poster": "https://image.tmdb.org/t/p/original/ujERk3aKABXU3NDXOAxEQYTHe9A.jpg",
-        "price": "39.42",
+        "price": 37,
         "description": "On the first day at his new school, Cameron instantly falls for Bianca, the gorgeous girl of his dreams. The only problem is that Bianca is forbidden to date until her ill-tempered, completely un-dateable older sister Kat goes out, too. In an attempt to solve his problem, Cameron singles out the only guy who could possibly be a match for Kat: a mysterious bad boy with a nasty reputation of his own.",
         "genres": [
           "Comedy",
@@ -3520,7 +3530,7 @@
         "id": 3176,
         "title": "Battle Royale",
         "poster": "https://image.tmdb.org/t/p/original/gFX7NuBUeKysOB9nEzRqVpHNT32.jpg",
-        "price": "4.92",
+        "price": 46,
         "description": "In the future, the Japanese government captures a class of ninth-grade students and forces them to kill each other under the revolutionary \"Battle Royale\" act.",
         "genres": [
           "Drama",
@@ -3567,7 +3577,7 @@
         "id": 24,
         "title": "Kill Bill: Vol. 1",
         "poster": "https://image.tmdb.org/t/p/original/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-        "price": "33.90",
+        "price": 25,
         "description": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
         "genres": [
           "Action",
@@ -3627,7 +3637,7 @@
         "id": 393,
         "title": "Kill Bill: Vol. 2",
         "poster": "https://image.tmdb.org/t/p/original/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
-        "price": "18.30",
+        "price": 19,
         "description": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
         "genres": [
           "Action",
@@ -3655,7 +3665,8 @@
           "https://image.tmdb.org/t/p/original/368Qzx69FKm6dQQDN1Zd3rqUP66.jpg",
           "https://image.tmdb.org/t/p/original/2IumtOerX073zZRMdwPoa3QhVPu.jpg",
           "https://image.tmdb.org/t/p/original/dUzJX3GlL9KdCWe10T2HhhmZOQy.jpg",
-          "https://image.tmdb.org/t/p/original/sxj6J3B9KmpH4G5vqLsKX7Ao73o.jpg"
+          "https://image.tmdb.org/t/p/original/sxj6J3B9KmpH4G5vqLsKX7Ao73o.jpg",
+          "https://image.tmdb.org/t/p/original/9Qe98ayH9qT9ZV7KGXAmzR9aVtj.jpg"
         ],
         "directors": [
           "Quentin Tarantino"
@@ -3670,7 +3681,7 @@
         "id": 244786,
         "title": "Whiplash",
         "poster": "https://image.tmdb.org/t/p/original/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-        "price": "37.81",
+        "price": 28,
         "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
         "genres": [
           "Drama",
@@ -3736,7 +3747,7 @@
         "id": 318846,
         "title": "The Big Short",
         "poster": "https://image.tmdb.org/t/p/original/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
-        "price": "21.70",
+        "price": 30,
         "description": "The men who made millions from a global economic meltdown.",
         "genres": [
           "Comedy",
@@ -3777,7 +3788,7 @@
         "id": 503919,
         "title": "The Lighthouse",
         "poster": "https://image.tmdb.org/t/p/original/4SC4cyzHWWzDEdszdxHYPWd32YH.jpg",
-        "price": "15.61",
+        "price": 42,
         "description": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
         "genres": [
           "Drama",
@@ -3831,7 +3842,7 @@
         "id": 872585,
         "title": "Oppenheimer",
         "poster": "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-        "price": "6.45",
+        "price": 31,
         "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
         "genres": [
           "Drama",
@@ -3925,7 +3936,7 @@
         "id": 170,
         "title": "28 Days Later",
         "poster": "https://image.tmdb.org/t/p/original/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
-        "price": "27.47",
+        "price": 28,
         "description": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
         "genres": [
           "Horror",
@@ -3969,7 +3980,7 @@
         "id": 16869,
         "title": "Inglourious Basterds",
         "poster": "https://image.tmdb.org/t/p/original/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
-        "price": "41.91",
+        "price": 43,
         "description": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
         "genres": [
           "Drama",
@@ -4036,7 +4047,7 @@
         "id": 650,
         "title": "Boyz n the Hood",
         "poster": "https://image.tmdb.org/t/p/original/v4ox4aSCNT5vyLXl4Q71JiWwCXW.jpg",
-        "price": "34.33",
+        "price": 35,
         "description": "In the middle of the Los Angeles ghetto, drugs, robberies and shootings dominate everyday life. During these times, Furious tries to raise his son Tre to be a decent person. Tre's friends, on the other hand, have little regard for the law and drag the entire neighborhood into a street war...",
         "genres": [
           "Crime",
@@ -4064,7 +4075,7 @@
         "id": 2109,
         "title": "Rush Hour",
         "poster": "https://image.tmdb.org/t/p/original/9FRw2qOU74GLSWbDkX6wWp6mgQD.jpg",
-        "price": "15.80",
+        "price": 23,
         "description": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
         "genres": [
           "Action",
@@ -4104,7 +4115,7 @@
         "id": 152532,
         "title": "Dallas Buyers Club",
         "poster": "https://image.tmdb.org/t/p/original/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg",
-        "price": "18.00",
+        "price": 20,
         "description": "Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.",
         "genres": [
           "Drama",
@@ -4146,7 +4157,7 @@
         "id": 3558,
         "title": "Girl, Interrupted",
         "poster": "https://image.tmdb.org/t/p/original/dOBdatHIVppvmRFw2z7bf9VKJr9.jpg",
-        "price": "12.63",
+        "price": 6,
         "description": "Set in the changing world of the late 1960s, Susanna Kaysen's prescribed \"short rest\" from a psychiatrist she had met only once becomes a strange, unknown journey into Alice's Wonderland, where she struggles with the thin line between normal and crazy. Susanna soon realizes how hard it is to get out once she has been committed, and she ultimately has to choose between the world of people who belong inside or the difficult world of reality outside.",
         "genres": [
           "Drama"
@@ -4196,7 +4207,7 @@
         "id": 11324,
         "title": "Shutter Island",
         "poster": "https://image.tmdb.org/t/p/original/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg",
-        "price": "46.25",
+        "price": 27,
         "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
         "genres": [
           "Drama",
@@ -4239,6 +4250,53 @@
           "Leonardo DiCaprio",
           "Mark Ruffalo",
           "Ben Kingsley"
+        ]
+      },
+      {
+        "id": 227973,
+        "title": "The Peanuts Movie",
+        "poster": "https://image.tmdb.org/t/p/original/dZOcwqxurYhDyjmdnhYcGnn1agL.jpg",
+        "price": 41,
+        "description": "Snoopy embarks upon his greatest mission as he and his team take to the skies to pursue their arch-nemesis, while his best pal Charlie Brown begins his own epic quest.",
+        "genres": [
+          "Comedy",
+          "Animation",
+          "Family"
+        ],
+        "backdrops": [
+          "https://image.tmdb.org/t/p/original/kbfPaXHnImSDSPgfmbbWjIDgwv8.jpg",
+          "https://image.tmdb.org/t/p/original/gxXtaSYh5QK6Lr5wpv2uFwRERZS.jpg",
+          "https://image.tmdb.org/t/p/original/361quVX94drEaExOKScbZYsxijG.jpg",
+          "https://image.tmdb.org/t/p/original/wRiEKwM7R56l1RT8fqeNt8fAdA6.jpg",
+          "https://image.tmdb.org/t/p/original/dJQElKss2jz6ielkhh1cs8hHgpX.jpg",
+          "https://image.tmdb.org/t/p/original/hx2wJjt73H7hIfQrYMyyxBt4cNN.jpg",
+          "https://image.tmdb.org/t/p/original/5RVgazMZmAr1ohaXCSMrOpKonqF.jpg",
+          "https://image.tmdb.org/t/p/original/7zw72ezcFc8qjl6JOmpGSTmtTQt.jpg",
+          "https://image.tmdb.org/t/p/original/hEBkL0LBtW6sEyTtCqdLoOamnLm.jpg",
+          "https://image.tmdb.org/t/p/original/zKCPluxSnGQB7ofILPixzBnS62e.jpg",
+          "https://image.tmdb.org/t/p/original/vfhxcHWpJbqDlhhI4AMo8RpkEeq.jpg",
+          "https://image.tmdb.org/t/p/original/8MF7ynsjrD9dJ0Nc6ngklE0duoO.jpg",
+          "https://image.tmdb.org/t/p/original/vOUz2Bu3VKo2Q1LceTXMj8UaFAi.jpg",
+          "https://image.tmdb.org/t/p/original/cJes0oR8UgByjSaptcDxfgWiK5q.jpg",
+          "https://image.tmdb.org/t/p/original/fAn4q0aYfMphh7N0CvzFLTi4MRV.jpg",
+          "https://image.tmdb.org/t/p/original/fVwIxjrKDIVwf5dTOP0BWWSJMcA.jpg",
+          "https://image.tmdb.org/t/p/original/1l1013J6IQIipxN7KHTWipVngT0.jpg",
+          "https://image.tmdb.org/t/p/original/5YM4nw75Tt1tSnOatKqmYjDzYVb.jpg",
+          "https://image.tmdb.org/t/p/original/i2EPVcaGktS9zSnmMi8scr7dJFq.jpg",
+          "https://image.tmdb.org/t/p/original/pTiOvJafGUBamI5nl90OQanIz4P.jpg",
+          "https://image.tmdb.org/t/p/original/oOYJ5Yfm1TizhzgfMGrVIXkhsLr.jpg",
+          "https://image.tmdb.org/t/p/original/12zOt5Utie2z3ohluRX82j5Dwvu.jpg",
+          "https://image.tmdb.org/t/p/original/qvoQ7cD6WLT5xGaw3GHwLfqYxBs.jpg",
+          "https://image.tmdb.org/t/p/original/lnzUMGcOgYPFAWSEh6acNIklOtn.jpg",
+          "https://image.tmdb.org/t/p/original/q5x2Ow6En6DCNPu8wA6l1CBm7bC.jpg"
+        ],
+        "directors": [
+          "Steve Martino"
+        ],
+        "actors": [
+          "Noah Schnapp",
+          "Bill Melendez",
+          "Marleik 'Mar Mar' Walker"
         ]
       }
     ]
@@ -4336,7 +4394,8 @@
       "2109-rush-hour",
       "152532-dallas-buyers-club",
       "3558-girl-interrupted",
-      "11324-shutter-island"
+      "11324-shutter-island",
+      "227973-the-peanuts-movie"
     ]
   }
 }

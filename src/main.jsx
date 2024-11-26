@@ -3,8 +3,9 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import route from "./routes/route";
 import "./main.scss";
-import foo from "./scripts/api";
+import updateApiProducts from "./scripts/api";
 
+// updateApiProducts()
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
