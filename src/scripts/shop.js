@@ -3,7 +3,7 @@
 import axios from "axios";
 
 function getProducts() {
-    const request = axios.get("http://localhost:3001/products");
+    const request = axios.get("https://dummyjson.com/c/b9ca-b849-41f0-ab8e");
 
     return request.then((r) => r.data);
 }
