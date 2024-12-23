@@ -2,7 +2,7 @@
 
 A front-end mock shopping cart that features my favorite films.
 
-[Live Preview](https://top-shopping-cart-beryl.vercel.app/)
+[Live](https://top-shopping-cart-beryl.vercel.app/)
 
 ## Built with
 
